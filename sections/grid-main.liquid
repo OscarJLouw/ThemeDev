@@ -1,0 +1,65 @@
+TEST
+
+{% schema %}
+{
+  "name": "Grid Element",
+  "class": "grid-item",
+  "settings": [
+    {
+        "type": "image_picker",
+        "id": "element_image",
+        "label": "Image"
+    },
+    {
+      "type": "select",
+      "id": "elementsize",
+      "label": "Element Size",
+      "default": "grid1by1",
+      "options": [
+        {
+          "label": "1 by 1",
+          "value": "grid1by1"
+        },
+        {
+          "label": "1 by 2",
+          "value": "grid1by2"
+        },
+        {
+          "label": "1 by 3",
+          "value": "grid1by3"
+        },
+        {
+          "label": "2 by 1",
+          "value": "grid2by1"
+        },
+        {
+          "label": "2 by 2",
+          "value": "grid2by2"
+        },
+        {
+          "label": "3 by 3",
+          "value": "grid2by3"
+        },
+        {
+          "label": "3 by 1",
+          "value": "grid3by1"
+        },
+        {
+          "label": "3 by 2",
+          "value": "grid3by2"
+        },
+        {
+          "label": "3 by 3",
+          "value": "grid3by3"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Grid Element",
+      "category": "Grid"
+    }
+  ]
+}
+{% endschema %}

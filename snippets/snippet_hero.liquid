@@ -1,0 +1,45 @@
+{% if block.settings.image != blank %}
+  <style>
+    .hero--{{ block.id }} {
+      background-position: {{ block.settings.alignment }};
+    }
+  </style>
+{% endif %}
+
+{% if block.settings.show_overlay %}
+  <style>
+    .hero--{{ block.id }}.hero__overlay::before {
+      background-color: {{ block.settings.overlay_color }};
+      opacity: {{ block.settings.overlay_opacity }};
+    }
+
+    .hero--{{ block.id }} .hero__overlay-title--overlay,
+    .hero--{{ block.id }} .mega-subtitle {
+      color: {{ block.settings.overlay_text }};
+    }
+  </style>
+{% endif %}
+
+<div class="hero hero--{{ block.id }} hero--{{ block.settings.hero_size }}{% if block.settings.show_overlay %} hero__overlay{% endif %} lazyload" data-bgset="{% include 'bgset', image: block.settings.image %}" data-section-id="{{ block.id }}" data-section-type="hero">
+  <div class="hero__inner">
+    <div class="text-center ">
+      {% if block.settings.title != blank %}
+        <h2 class="{% if block.settings.hero_size == 'fullscreen' %}translateUp{% endif %} hero__overlay-title separator{% if block.settings.show_overlay %} hero__overlay-title--overlay{% endif %}{% if block.settings.text_size == 'large' %} h1{% endif %}" data-animate>{{ block.settings.title | escape }}</h2>
+      {% endif %}
+      {% if block.settings.text != blank %}
+        <div class="rte-setting mega-subtitle{% if block.settings.text_size == 'large' %} mega-subtitle--large{% endif %} {% if block.settings.text_size == 'small' %} mega-subtitle--tiny{% endif %} {% if block.settings.text_position == 'bottom' %}align-subtitle--bottom{% endif %}">{{ block.settings.text }}
+        {% if block.settings.text2 != blank %}
+          <div class="rte-setting mega-subtitle mega-subtitle--photographer">{{ block.settings.text2 }}</div>
+        {% endif %}
+        </div>
+      {% endif %}
+      {% if block.settings.button_label != blank %}
+        <a href="{{ block.settings.button_link }}" class="btn{% if block.settings.use_second_button %} btn--secondary{% endif %} hero__btn">
+          {{ block.settings.button_label }}
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+

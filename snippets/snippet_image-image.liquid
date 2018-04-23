@@ -1,0 +1,31 @@
+<style>
+  {% if block.settings.background != blank %}
+    .hero--{{ block.id }} {
+      background-position: {{ block.settings.alignment }};
+    }
+  {% endif %}
+
+  {% if block.settings.foreground != blank %}
+    .heroimg--{{ block.id }} {
+      max-height: {{ block.settings.foreground_height | append: 'px' }};
+      margin:auto;
+    }
+  {% endif %}
+
+</style>
+
+
+
+<div class="lazyload hero hero--{{ block.id }} hero--{{ block.settings.hero_size }} lazyload" data-bgset="{% include 'bgset', image: block.settings.background %}" data-block-id="{{ block.id }}" data-block-type="hero">
+  <div class="hero__inner2">
+    <div class="page-width text-center">
+      <!--<img class="lazyload" src="{% include 'bgset', image: block.settings.foreground %}" /> -->
+      
+      {%- capture image_size %}x{{ block.settings.foreground_height }}{% endcapture -%}
+      <img class="lazyload heroimg--{{ block.id }}" src="{{ block.settings.foreground | img_url: image_size }}" srcset="{{ block.settings.foreground | img_url: image_size }} 1x, {{ block.settings.foreground | img_url: image_size, scale: 2 }} 2x" alt="{{ block.settings.foreground.alt | default: shop.name }}" itemprop="logo">
+      <!--<img class="heroimg--{{ block.id }}" src="{% include 'bgset', image: block.settings.foreground %}"> -->
+      
+    </div>
+  </div>
+</div>
+

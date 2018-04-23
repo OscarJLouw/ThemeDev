@@ -1,0 +1,32 @@
+
+<style>
+  body{
+    overflow:visible;
+  }
+  #canvas { 
+    width: 100vh;
+    height: 100vh;
+    position: fixed;
+  }
+  #canvasContainer{
+    top:0;
+    position:absolute;
+    padding:0;
+  }
+</style>
+
+<div id="canvasContainer" >
+</div>
+
+{% section 'heroindex' %}
+
+
+{{ content_for_index }}
+
+<script src="{{ 'three.min.js' | asset_url }}"></script>
+<script src="{{ 'intro.js' | asset_url }}"></script>
+<script src="{{ 'masonry.pkgd.min.js' | asset_url }}"></script>
+
+<!--[if lte IE 9]><script src="{{ 'three.min.js' | asset_url }}"></script><![endif]-->
+<!--[if lte IE 9]><script src="{{ 'intro.js' | asset_url }}"></script><![endif]-->
+<!--[if lte IE 9]><script src="{{ 'masonry.pkgd.min.js' | asset_url }}"></script><![endif]-->

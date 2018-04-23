@@ -1,0 +1,133 @@
+<style>
+  {% if section.settings.background != blank %}
+    .hero--{{ section.id }} {
+      background-position: {{ section.settings.alignment }};
+    }
+  {% endif %}
+
+  {% if section.settings.foreground != blank %}
+    .heroimg--{{ section.id }} {
+      max-height: {{ section.settings.foreground_height | append: 'px' }};
+      margin:auto;
+    }
+  {% endif %}
+
+</style>
+
+
+
+<div class="lazyload hero hero--{{ section.id }} hero--{{ section.settings.hero_size }}" data-bgset="{% include 'bgset', image: section.settings.background %}" data-section-id="{{ section.id }}" data-section-type="hero">
+  <div class="hero__inner2">
+    <div class="page-width text-center">
+      <!--<img class="lazyload" src="{% include 'bgset', image: section.settings.foreground %}" /> -->
+      
+      {%- capture image_size %}x{{ section.settings.foreground_height }}{% endcapture -%}
+      <img class="lazyload heroimg--{{ section.id }}" src="{{ section.settings.foreground | img_url: image_size }}" srcset="{{ section.settings.foreground | img_url: image_size }} 1x, {{ section.settings.foreground | img_url: image_size, scale: 2 }} 2x" alt="{{ section.settings.foreground.alt | default: shop.name }}" itemprop="logo">
+      <!--<img class="heroimg--{{ section.id }}" src="{% include 'bgset', image: section.settings.foreground %}"> -->
+      
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Image with image overlay",
+  "class": "index-section index-section--image-with-image-overlay",
+  "settings": [
+    {
+      "type": "select",
+      "id": "hero_size",
+      "label": "Section spacing",
+      "default": "medium",
+      "options": [
+        {
+          "label": "Small",
+          "value": "small"
+        },
+        {
+          "label": "Medium",
+          "value": "medium"
+        },
+        {
+          "label": "Large",
+          "value": "large"
+        },
+        {
+          "label": "Extra Large",
+          "value": "x-large"
+        },
+		{
+          "label": "Full Screen",
+          "value": "fullscreen"
+        }
+      ]
+    },
+    {
+      "type": "image_picker",
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "select",
+      "id": "alignment",
+      "label": "Image alignment",
+      "default": "center center",
+      "options": [
+        {
+          "label": "Top left",
+          "value": "top left"
+        },
+        {
+          "label": "Top center",
+          "value": "top center"
+        },
+        {
+          "label": "Top right",
+          "value": "top right"
+        },
+        {
+          "label": "Middle left",
+          "value": "center left"
+        },
+        {
+          "label": "Middle center",
+          "value": "center center"
+        },
+        {
+          "label": "Middle right",
+          "value": "center right"
+        },
+        {
+          "label": "Bottom left",
+          "value": "bottom left"
+        },
+        {
+          "label": "Bottom center",
+          "value": "bottom center"
+        },
+        {
+          "label": "Bottom right",
+          "value": "bottom right"
+        }
+      ]
+    },
+    {
+      "type": "image_picker",
+      "id": "foreground",
+      "label": "Foreground"
+    },
+	{
+      "id": "foreground_height",
+      "type": "text",
+      "label": "Foreground image height (in pixels)",
+      "default": "150"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image with image overlay",
+      "category": "Image"
+    }
+  ]
+}
+{% endschema %}

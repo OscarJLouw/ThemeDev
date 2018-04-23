@@ -1,0 +1,59 @@
+
+{% assign max_height = 650 %}
+{% assign max_width = 980 %}
+{% assign max_aspect_ratio = 1.50769 %}
+
+
+{% if image.aspect_ratio < max_aspect_ratio%}
+	{% if type.height < max_height %}
+		{% assign max_width = image.width | times: type.aspect_ratio | round %}
+	{% else %}
+		{% assign max_width = max_height | times: type.aspect_ratio | round %}
+	{% endif %}
+{% else %}
+	{% if type.width < max_width %}
+		{% assign max_width = type.width %}
+	{% endif %}
+{% endif %}
+
+<div class="card__image-wrapper" 
+     style="width: 100%; padding-top:{{ 1 | divided_by: type.aspect_ratio | times: 100}}%">
+  <!--<div class="card__preloader"></div>-->
+  
+  {% assign img_url = type | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
+  <img class="card__image lazyload fade-in"
+       data-src="{{ img_url }}"
+       data-widths="[180, 220, 300, 360, 460, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+       data-aspectratio="{{ type.aspect_ratio }}"
+       data-sizes="auto"
+       alt="{{ type.alt | escape }}">
+
+  <noscript>
+    {% assign card_image = type | img_url: '1024x1024' %}
+    <img src="{{ card_image }}" alt="{{ type.alt | escape }}" class="card__image">
+  </noscript>
+</div>
+
+
+
+
+<!--
+
+<div class="card__image-wrapper" style="padding-top:{{ 1 | divided_by: type.aspect_ratio | times: 100}}%">
+  <div class="card__preloader"></div>
+
+  {% assign img_url = type | img_url: '1x1' | replace: '_1x1.', '_{width}x.' %}
+  <img class="card__image lazyload fade-in"
+    data-src="{{ img_url }}"
+    data-widths="[180, 220, 300, 360, 460, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+    data-aspectratio="{{ type.aspect_ratio }}"
+    data-sizes="auto"
+    alt="{{ type.alt | escape }}">
+
+  <noscript>
+    {% assign card_image = type | img_url: '1024x1024' %}
+    <img src="{{ card_image }}" alt="{{ type.alt | escape }}" class="card__image">
+  </noscript>
+</div>
+
+-->

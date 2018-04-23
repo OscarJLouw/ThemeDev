@@ -1,0 +1,2957 @@
+{
+  "current": {
+    "color_primary": "#20593f",
+    "color_header_text": "#000000",
+    "color_primary_heading_text": "#000000",
+    "color_primary_body_text": "#000000",
+    "color_footer_text": "#000000",
+    "color_button_text": "#ffffff",
+    "color_header_bg": "#fff",
+    "color_footer_bg": "#ffffff",
+    "color_main_bg": "#ffffff",
+    "color_secondary_bg": "#ffffff",
+    "color_menu_bg": "#20593f",
+    "color_menu_bg_2": "#a25982",
+    "opacity_menu_bg": 90,
+    "color_product_cards": "#fff",
+    "color_form_elements": "#d2d2d2",
+    "color_cart_flag": "#20593f",
+    "type_base_size": "62.5%",
+    "h1_header_size_desktop": "12",
+    "h1_header_size_mobile": "3",
+    "h2_header_size_desktop": "8",
+    "h2_header_size_mobile": "5",
+    "type_header_family": "Google_Cormorant+Garamond_400_serif",
+    "type_bold_titles": false,
+    "type_base_family": "Google_Cormorant+Garamond_400_serif",
+    "show_cart_drawer": false,
+    "show_cart_note": false,
+    "share_facebook": false,
+    "share_twitter": false,
+    "share_pinterest": false,
+    "social_facebook_link": "",
+    "social_twitter_link": "",
+    "social_pinterest_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/griegst\/",
+    "social_snapchat_link": "",
+    "social_tumblr_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "favicon": "shopify:\/\/shop_images\/favicon-194x194.png",
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo_large_black_simple.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman'",
+    "checkout_body_font": "Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman'",
+    "checkout_accent_color": "#20593f",
+    "checkout_button_color": "#20593f",
+    "checkout_error_color": "#ff6d6d",
+    "logo_max_height": "15",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "icon": "bag",
+          "logo": "shopify:\/\/shop_images\/logo_large_black_simple.png",
+          "logo_max_height": "75",
+          "enable_transparent": false,
+          "transparent_logo": "shopify:\/\/shop_images\/TransparentReplacement.png",
+          "transparent_text_color": "#000000",
+          "primary_navigation": "main-menu",
+          "secondary_navigation": "archive-menu",
+          "show_social_icons": false,
+          "show_announcement": false,
+          "home_page_only": true,
+          "announcement_text": "Announce something here",
+          "announcement_link": "",
+          "announcement_icon": "checkmark",
+          "announcement_color_bg": "#7796a8",
+          "announcement_color_text": "#fff"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "1486649858082": {
+            "type": "menu",
+            "settings": {
+              "link_list": "footer"
+            }
+          }
+        },
+        "block_order": [
+          "1486649858082"
+        ],
+        "settings": {
+          "show_social_icons": true,
+          "show_payment_icons": false,
+          "enable_parallax": true,
+          "show_newsletter": false,
+          "newsletter_heading": "",
+          "newsletter_button": "Subscribe",
+          "copyright_text": "GRIEGST Est. 1963<br>\nFINE ART & JEWELRY <br>COPENHAGEN<br>\n© 2018 Griegst"
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "products": "2",
+          "rows": "9999",
+          "product_tags_enable": false,
+          "product_sorting_enable": false,
+          "collection_hero_image": false,
+          "collection_hero_image_parallax": false,
+          "show_spacing": false,
+          "show_vendor": false
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_quantity_selector": false,
+          "show_variant_labels": true,
+          "show_vendor": false,
+          "hide_variant_images": false,
+          "show_share_buttons": false
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "articles": "2",
+          "rows": "4",
+          "blog_show_date": true
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "1486649185448": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Splash.jpg",
+              "alignment": "top center",
+              "title": "Griegst",
+              "button": "Griegst",
+              "cta_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1486649185448"
+        ],
+        "settings": {
+          "cta": "",
+          "show_overlay": false,
+          "overlay_color": "#313131",
+          "overlay_text": "#ffffff",
+          "overlay_opacity": "0.3"
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "image_parallax": true,
+          "show_date": true,
+          "show_author": false,
+          "show_share_buttons": true
+        }
+      },
+      "search-template": {
+        "type": "search-template",
+        "settings": {
+          "results": "2",
+          "rows": "4"
+        }
+      },
+      "image-image": {
+        "type": "image-image",
+        "settings": {
+          "hero_size": "x-large",
+          "background": "shopify:\/\/shop_images\/FS_griegst_high.png",
+          "alignment": "center center",
+          "foreground": "shopify:\/\/shop_images\/logo_large_black_simple.png",
+          "foreground_height": "0"
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "blocks": {
+          "1508324495437": {
+            "type": "collection",
+            "settings": {
+              "collection": ""
+            }
+          }
+        },
+        "block_order": [
+          "1508324495437"
+        ],
+        "settings": {
+          "display_type": "all",
+          "products": "2",
+          "sort": "alphabetical",
+          "show_spacing": false,
+          "show_description": true
+        }
+      },
+      "about": {
+        "type": "about",
+        "blocks": {
+          "1508894391517": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/header.jpg",
+              "alignment": "center center",
+              "title": "The House of Griegst",
+              "text": "",
+              "text2": "<p>VARIOUS PIECES OF FINE JEWELRY BY ARJE GRIEGST 1963-1979<\/p>",
+              "text_size": "large",
+              "text_position": "center",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": true,
+              "overlay_color": "rgba(0,0,0,0)",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0"
+            }
+          },
+          "1508599852631": {
+            "type": "richtext",
+            "settings": {
+              "full_width": false,
+              "background_color": "#ae9a86",
+              "section_title": "",
+              "text": "<p>Griegst is the family name of artist Arje &amp; Irene Griegst. Established as a&nbsp;fine jewellery brand, it was founded in Copenhagen in 1963 by the Danish goldsmith and artist Arje Griegst (1938-2016). Arje Griegst is an international household name in Danish Design. His jewellery is sought after by collectors all over the world, and among his prominent customers is the Danish Queen H.M. Margrethe II.<\/p>\n<p>Arje Griegst was a goldsmith who thought&nbsp;like a sculptor. Inspired by the Baroque and the Orient, his free sculptural form is a contrast to rigid modernism. Using his own customised cire perdue techniques he was able to sculpt pieces that vibrate with sensual energy in an almost hallucinatory alternate universe. In his hands, rigid materials were rendered almost in their liquid state across jewellery and collaborations on tableware, flatware, glassware, chandeliers and sculptures.<\/p>\n<p><\/p>\n<p>Blurring the lines between jewellery and art, Arje Griegst&rsquo;s pieces are crafted using only the most precious metals and exquisite stones chosen for their organic shape, clarity and colour. Arje Griegst's legacy lives on in his works &ndash; re-issued from original casts.&nbsp;<\/p>\n<p>He won international acclaim for his jewellery, his famous Triton tableware, Konkylie stellet, his silver cutlery, his glassware, Xanadu, and his late masterpieces chandelier light sculpture at the Design Museum Denmark and his fountain at the Tivoli Gardens<\/p>\n<p><\/p>\n<p>Arje Griegst is represented at museums internationally. His jewellery and designs has been shown at Metropolitan museum and the Cooper-Hewitt Museum in New York, at the Victoria&nbsp;&amp; Albert in London, the Israel Museum, Jerusalem, National Museum in Stockholm and the Design Museum Denmark in Copenhagen. He has received numerous awards for his work.<\/p>\n<p><\/p>",
+              "text_align": "justify",
+              "text_size": "large"
+            }
+          },
+          "1509964263203": {
+            "type": "twoimgcustomgallery",
+            "settings": {
+              "background_color": "#00572d",
+              "top_margin": true,
+              "bottom_margin": true,
+              "image1": "shopify:\/\/shop_images\/resized1_3e213172-a524-4206-b5e2-0f1d2817f2f9.jpg",
+              "alignment1": "bottom",
+              "image2": "shopify:\/\/shop_images\/resized2_c9ecff08-b0d0-4128-a745-9108ab707863.jpg",
+              "alignment2": "center",
+              "heading_text": "ARJ E GRIEGST",
+              "heading_color": "#3a3a3a",
+              "heading_style": "h3",
+              "paragraph_text": "",
+              "paragraph_color": "#4a4a4a",
+              "paragraph_size": "1",
+              "align_text": "center"
+            }
+          },
+          "1509964580538": {
+            "type": "richtext",
+            "settings": {
+              "full_width": false,
+              "background_color": "#ae9a86",
+              "section_title": "",
+              "text": "<p>Today, the family-owned house is run by Arje Griegst&rsquo;s son Noam Griegst, &nbsp;a photographer and filmmaker who became Creative Director of Griegst in 2016. He works alongside his mother, &nbsp;Irene Griegst, whose pieces have been exhibited at some of Denmark&rsquo;s most prestigious art institutions. Together, they ensure that Arje Griegst&rsquo;s highly original legacy lives on while staying true to the spirit of the house, which remains as relevant and exciting today as when Griegst first arrived on the jewellery scene more than half a century ago.<\/p>\n<p><br>The house continues to be dedicated to Arje Griegst&rsquo;s supreme artistry and mischievous yet philosophical approach to high-end jewellery. The Copenhagen workshop where Arje Griegst worked throughout his career is still home to the Griegst and is open by personal appointment.&nbsp;<\/p>",
+              "text_align": "justify",
+              "text_size": "medium"
+            }
+          },
+          "1510048425028": {
+            "type": "oneimgcustomgallery",
+            "settings": {
+              "background_color": "#00572d",
+              "top_margin": true,
+              "bottom_margin": true,
+              "image1": "shopify:\/\/shop_images\/N_G_portraet.png",
+              "width": "400",
+              "alignment1": "center",
+              "heading_text": "Noam Griegst",
+              "heading_color": "#3a3a3a",
+              "heading_style": "h3",
+              "paragraph_text": "",
+              "paragraph_color": "#4a4a4a",
+              "paragraph_size": "1",
+              "align_text": "center"
+            }
+          },
+          "1510048615660": {
+            "type": "oneimgcustomgallery",
+            "settings": {
+              "background_color": "#ae9a86",
+              "top_margin": true,
+              "bottom_margin": false,
+              "image1": "shopify:\/\/shop_images\/Arje_Griegst_-_Trton_porcelain3.jpg",
+              "width": "400",
+              "alignment1": "center",
+              "heading_text": "ARJ E GRIEGST",
+              "heading_color": "#3a3a3a",
+              "heading_style": "h3",
+              "paragraph_text": "",
+              "paragraph_color": "#4a4a4a",
+              "paragraph_size": "1",
+              "align_text": "center"
+            }
+          },
+          "1510048229034": {
+            "type": "richtext",
+            "settings": {
+              "full_width": false,
+              "background_color": "#ae9a86",
+              "section_title": "",
+              "text": "<p><\/p>\n<p><\/p>\n<p><em>Please click below for more information on Arje Griegst works<\/em><\/p>\n<p><em><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2424\/9283\/files\/About_Griegst.pdf?15213187425583196941\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2424\/9283\/files\/About_Griegst.pdf?15213187425583196941\">Download PDF<\/a><\/em><\/p>\n<p><\/p>\n<p><\/p>",
+              "text_align": "centered",
+              "text_size": "medium"
+            }
+          }
+        },
+        "block_order": [
+          "1508894391517",
+          "1508599852631",
+          "1509964263203",
+          "1509964580538",
+          "1510048425028",
+          "1510048615660",
+          "1510048229034"
+        ],
+        "settings": {
+        }
+      },
+      "catalogue": {
+        "type": "catalogue",
+        "blocks": {
+          "1508600353887": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/AG_Early_Years1.png",
+              "alignment": "bottom center",
+              "title": "Arje Griegst",
+              "text": "",
+              "text2": "<p>Photographer<\/p>",
+              "text_size": "large",
+              "text_position": "center",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": false,
+              "overlay_color": "#080808",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0.5"
+            }
+          },
+          "1508602896425": {
+            "type": "imagetext",
+            "settings": {
+              "size": "large",
+              "background_color": "#f0ddd6",
+              "image": "shopify:\/\/shop_images\/N_120306_28_s041_dg_91287_copy_copy.jpg",
+              "image_crop": "custom",
+              "custom_image_width": "340",
+              "custom_image_height": "480",
+              "alignment": "center center",
+              "use_image_subtitle": false,
+              "image_subtitle_text": "",
+              "title": "",
+              "text": "<p>Arje Griegst started his career as an award-winning apprentice at Copenhagen-based jewellers Just Andersen during the peak of functionalist modern Scandinavian design tradition. The jewellery pieces he created in the very beginning were truly in sync with the contemporary style that surrounded him. His &ldquo;Silleben&rdquo; necklace from 1959 and the &ldquo;Trinity&rdquo; ring from are remarkable modernistic pieces with clear references to the prevailing design movement in the Nordics. However, by incorporating movement or introducing an unusually large element, both are illustrated in his &ldquo;Egg&rdquo; piece from (1958), Arje Griegst early on managed to play with the boundaries of the goldsmith scene in Denmark.<\/p>",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "desktop_layout": "left",
+              "mobile_layout": "top"
+            }
+          },
+          "1508603575018": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/N_120306_31_dg_91287_copy.png",
+              "alignment": "center center",
+              "title": "",
+              "text": "",
+              "text2": "<p>Photographer<\/p>",
+              "text_size": "medium",
+              "text_position": "center",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": false,
+              "overlay_color": "#000000",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0.5"
+            }
+          },
+          "1508603606401": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/ansigtssmykke_1_r1_91287_copy.jpg",
+              "alignment": "center left",
+              "title": "",
+              "text": "<p><em>Face jewellery, called Paribanus Tears. <br><\/em><em>Here worn by prima ballerina Anna L&aelig;rkesen 1962<\/em><\/p>",
+              "text2": "<p>Photography: Rigmor Mydtskov<\/p>",
+              "text_size": "small",
+              "text_position": "bottom",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0"
+            }
+          },
+          "1508606063443": {
+            "type": "imagetext",
+            "settings": {
+              "size": "large",
+              "background_color": "#f0ddd6",
+              "image": "shopify:\/\/shop_images\/Arje-7-028208_r1_dg_91287_copy.jpg",
+              "image_crop": "custom",
+              "custom_image_width": "320",
+              "custom_image_height": "320",
+              "alignment": "bottom center",
+              "use_image_subtitle": true,
+              "image_subtitle_text": "Hand jewellery designed as a pliant, 21 carat gold and sheet in fine gold, emerald, rubies, almandines and oriental pearls, 1962.",
+              "title": "Early years",
+              "text": "<p>After qualifying as a goldsmith and setting up his own studio, a young Arje Griegst travels to Spain and is captivated by Gaud&iacute;&rsquo;s fantastical architecture. The buildings tap straight into his imagination and formative years spent reading 1001 Nights and roaming the halls of Copenhagen&rsquo;s decorative art museums. Griegst subsequently completes a series of Aladdin&rsquo;s Cave-worthy pieces shown in 1963 at the Design Museum Denmark, his first solo exhibition.<\/p>",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "desktop_layout": "left",
+              "mobile_layout": "top"
+            }
+          },
+          "1508606132571": {
+            "type": "imagetext",
+            "settings": {
+              "size": "large",
+              "background_color": "#f0ddd6",
+              "image": "shopify:\/\/shop_images\/02_003_dg_91287_copy.jpg",
+              "image_crop": "custom",
+              "custom_image_width": "420",
+              "custom_image_height": "300",
+              "alignment": "center center",
+              "use_image_subtitle": false,
+              "image_subtitle_text": "Caption text",
+              "title": "",
+              "text": "<p>Each of the thirty-five works signals a major split from restrained modernism &ndash; the Danish design religion of the time. His lavish language &ndash; organic, jewel-filled trellis rings shaped using a customised cire perdue technique &ndash; baffles the critics. An upturned 20 carat gold finger, pierced by 120 light-reflecting opals, sapphires, oriental pearls and rubies punctuated by a large opal nail is pretty much blasphemy to Danes who are all about reducing rather than adding.<\/p>\n<p>For Griegst, the collection is a confident statement that sets the tone for a lifetime of doing his own thing. It also shows an artist ahead of his time. In Griegst&rsquo;s Paribanu&rsquo;s Tears, a seductive jewel veil suspended from gold chains where rubies and emeralds dance across the face and become part of the body<\/p>",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "desktop_layout": "right",
+              "mobile_layout": "top"
+            }
+          },
+          "1508606210420": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/13_001_dg_91287-copy_copy.jpg",
+              "alignment": "center left",
+              "title": "",
+              "text": "<p><em>Finger jewellery from 1962 which covers the whole finger. 20 carat gold, <\/em><br><em>decorated with 120 precious stones, opals, sapphires, oriental pearls and rubies.<\/em><\/p>",
+              "text2": "",
+              "text_size": "small",
+              "text_position": "bottom",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0"
+            }
+          },
+          "1508606294595": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/titleresized.jpg",
+              "alignment": "bottom center",
+              "title": "Cire Perdu",
+              "text": "",
+              "text2": "",
+              "text_size": "medium",
+              "text_position": "center",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0"
+            }
+          },
+          "1508606351964": {
+            "type": "imagetext",
+            "settings": {
+              "size": "x-large",
+              "background_color": "#bbe7d5",
+              "image": "shopify:\/\/shop_images\/ArjeG-6-028057bog_dg_91287_copy.jpg",
+              "image_crop": "custom",
+              "custom_image_width": "300",
+              "custom_image_height": "400",
+              "alignment": "center center",
+              "use_image_subtitle": true,
+              "image_subtitle_text": "Orientalsk Nat, 20 carat gold, diamonds, moonstone, sapphires, opal and oriental pearls, 1964",
+              "title": "",
+              "text": "<p>Building around precious stones in wax using the ancient cire perdue technique he created rings for his first eponymous collection, Arje Griegst spends time in Paris in the mid-sixties working on twenty rings for Georg Jensen, who have noticed his talent and supplied him with a bag full of precious stones. He adopts and modifies the cire perdue technique &ndash; the ideal way to free himself from the static shackles of modernism. Moulding the wax creates a spontaneous expression and allows him to freely place the stones so they shine with maximum impact.<\/p>",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "desktop_layout": "left",
+              "mobile_layout": "top"
+            }
+          },
+          "1508606423547": {
+            "type": "imagetext",
+            "settings": {
+              "size": "x-large",
+              "background_color": "#bbe7d5",
+              "image": "shopify:\/\/shop_images\/ArjeG5-027808_dg_91287_copy.jpg",
+              "image_crop": "custom",
+              "custom_image_width": "320",
+              "custom_image_height": "400",
+              "alignment": "center center",
+              "use_image_subtitle": true,
+              "image_subtitle_text": "Solopgangssøjlen, 20 carat gold, opals, raw tumelin, diamonds, 1964",
+              "title": "",
+              "text": "<p>Griegst is rediscovering art nouveau via the Paris art scene but does not translate it directly. Rings appear like diamond-encrusted lava or abstract flowering branches. One ring, Solopgangss&oslash;jlen (The Pillar of Sunrise), is a highly detailed miniature rock formation with a cool lake of water at the top in the shape of a green opal &ndash; a predecessor to his later Cosmic period. The decade&rsquo;s psychedelia comes across in a series of surreal jewelled pendants that look as if the gold is still in its liquid form. Faces are melting, dripping like a dream that is about to become a nightmare or vice versa.<\/p>",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "desktop_layout": "right",
+              "mobile_layout": "top"
+            }
+          },
+          "1508606500000": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/drippingresized.jpg",
+              "alignment": "center center",
+              "title": "",
+              "text": "<p><em>Nattens Ansigt, 20 carat gold, opals, coloured oriental pearls and diamonds, 1967<\/em><\/p>",
+              "text2": "<p>PHOTOGRAPHY: PIOTR TOPPERZER<\/p>",
+              "text_size": "small",
+              "text_position": "bottom",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0"
+            }
+          },
+          "1508606561757": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/dias_09-11_06_91287_copy.jpg",
+              "alignment": "center center",
+              "title": "",
+              "text": "<p><em>Ring in 20 carat gold, labradorit, moonstone, oriental baroque pearl, diamonds, 1964<\/em><\/p>",
+              "text2": "",
+              "text_size": "small",
+              "text_position": "bottom",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0"
+            }
+          },
+          "1508606614356": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/header.png",
+              "alignment": "center center",
+              "title": "Spiral jewelry",
+              "text": "<p><em>Spiral bracelets, 18 carat gold, 1973<\/em><\/p>",
+              "text2": "<p>PHOTOGRAPHY: PIOTR TOPPERZER<\/p>",
+              "text_size": "small",
+              "text_position": "bottom",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0"
+            }
+          },
+          "1508606852261": {
+            "type": "imagetext",
+            "settings": {
+              "size": "x-large",
+              "background_color": "#faf9f6",
+              "image": "shopify:\/\/shop_images\/ArjeG-26203-2_r1_dg_91287_copy.jpg",
+              "image_crop": "custom",
+              "custom_image_width": "320",
+              "custom_image_height": "320",
+              "alignment": "center center",
+              "use_image_subtitle": true,
+              "image_subtitle_text": "Trompetknud, 18 carat gold, Tahiti pearl, 1979",
+              "title": "",
+              "text": "<p>During the seventies, Arje Griegst takes his sixties &lsquo;melting&rsquo; gold theme in a refined yet utterly nonchalant direction. Using his own wax mixture and cast technique, he traces energetic, ribbed lines in 18 carat gold spirals, like locks of golden hair &ndash; or Roman jewellery on acid. The gold quivers and comes alive: coiled springs clasp ruby pearls, a slithering pendant threatens to melt and drop its cabochon cut blue sapphire down the wearer&rsquo;s cleavage. At once organic and stylised, the Spiral series is hypnotic in its fluidity and warm glow<\/p>",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "desktop_layout": "left",
+              "mobile_layout": "top"
+            }
+          },
+          "1508876326401": {
+            "type": "customgallery",
+            "settings": {
+              "background_color": "#faf9f6",
+              "top_margin": false,
+              "bottom_margin": true,
+              "image1": "shopify:\/\/shop_images\/gallery1.png",
+              "alignment1": "bottom",
+              "image2": "shopify:\/\/shop_images\/gallery2.png",
+              "alignment2": "center",
+              "image3": "shopify:\/\/shop_images\/gallery3.png",
+              "alignment3": "center",
+              "heading_text": "PHOTOGRAPHY: PIOTR TOPPERZER",
+              "heading_color": "#3a3a3a",
+              "heading_style": "h3",
+              "paragraph_text": "<p><em>The Rossini Ring, 20 carat gold, oriental pearl, diamonds, 1988<\/em><br><em>Pendant, 18 carat gold, blue cabochon sapphire, 1980<\/em><br><em>B&oslash;lger necklace, 18 carat gold, 1973<\/em><\/p>",
+              "paragraph_color": "#4a4a4a",
+              "paragraph_size": "1",
+              "align_text": "center"
+            }
+          },
+          "1508876639515": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/ArjeG-6-028049_r1_dg_91287_copy.jpg",
+              "alignment": "bottom center",
+              "title": "",
+              "text": "<p><em>Himmel&oslash;jne, necklace, 18 carat gold, ruby pearls, 1990<\/em><\/p>",
+              "text2": "<p>PHOTOGRAPHY: PIOTR TOPPERZER<\/p>",
+              "text_size": "small",
+              "text_position": "bottom",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": true,
+              "overlay_color": "rgba(0,0,0,0)",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0"
+            }
+          },
+          "1508876760670": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/ArjeG5-027750-2_dg_91287_copy.jpg",
+              "alignment": "top center",
+              "title": "Wave jewelry",
+              "text": "",
+              "text2": "<p>Photographer<\/p>",
+              "text_size": "medium",
+              "text_position": "center",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": false,
+              "overlay_color": "#000000",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0.5"
+            }
+          },
+          "1508876838988": {
+            "type": "imagetext",
+            "settings": {
+              "size": "medium",
+              "background_color": "#cfdbef",
+              "image": "shopify:\/\/shop_images\/Arje-Ra-028652_s202_203_dg_91287_copy.jpg",
+              "image_crop": "custom",
+              "custom_image_width": "320",
+              "custom_image_height": "320",
+              "alignment": "center center",
+              "use_image_subtitle": true,
+              "image_subtitle_text": "Wave ring, 21 carat gold, large uncut opal, grey prink and white oriental pearls, 1991-1995",
+              "title": "Rings",
+              "text": "<p>Continually depicting the natural world but not as we know it, Griegst works on a series of rings in the second half of the nineties that bring a new and highly articulated language to his ongoing fascination with the ocean. Opposite currents collide in 21 carat gold crests and troughs, with rubies emulating rosy sunsets or diamonds suspended between rocaille swells &ndash; sumptuous symbols of always being carried by the current of life.<\/p>",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "desktop_layout": "left",
+              "mobile_layout": "top"
+            }
+          },
+          "1508876970792": {
+            "type": "customgallery",
+            "settings": {
+              "background_color": "#cfdbef",
+              "top_margin": false,
+              "bottom_margin": true,
+              "image1": "shopify:\/\/shop_images\/gallery1_78c74754-d98c-4c2d-83e1-9d689f6b40a3.png",
+              "alignment1": "bottom",
+              "image2": "shopify:\/\/shop_images\/gallery2_7ba15d71-da15-432c-882b-3f24bea55a7b.png",
+              "alignment2": "center",
+              "image3": "shopify:\/\/shop_images\/gallery3_64bd3eb6-bea0-46f2-a2af-22a1f7551497.png",
+              "alignment3": "center",
+              "heading_text": "PHOTOGRAPHY: PIOTR TOPPERZER",
+              "heading_color": "#000000",
+              "heading_style": "h3",
+              "paragraph_text": "<p><em>Wave ring, 21 carat gold, facet cut diamond, 1991-1995<\/em><br><em>Wave ring, 21 carat gold, facet cut emerald, 1991-1995<\/em><br><em>Wave ring, 21 carat gold, three raw rubies, 1991-1995<\/em><\/p>",
+              "paragraph_color": "#000000",
+              "paragraph_size": "1",
+              "align_text": "center"
+            }
+          },
+          "1508877274205": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/ArjeG-35_dg_91287_copy.jpg",
+              "alignment": "center center",
+              "title": "",
+              "text": "<p><em>The silver jug &lsquo;B&oslash;lgen&rsquo; (wave), award winning in 2000<\/em><\/p>",
+              "text2": "<p>PHOTOGRAPHY: PIOTR TOPPERZER<\/p>",
+              "text_size": "small",
+              "text_position": "bottom",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0"
+            }
+          },
+          "1508877410127": {
+            "type": "imagetext",
+            "settings": {
+              "size": "medium",
+              "background_color": "#cfdbef",
+              "image": "shopify:\/\/shop_images\/ArjeG-35_dg_91287_copy_503b99e3-109d-4c30-8e42-d1adde5efa9a.jpg",
+              "image_crop": "custom",
+              "custom_image_width": "340",
+              "custom_image_height": "400",
+              "alignment": "center center",
+              "use_image_subtitle": false,
+              "image_subtitle_text": "Caption text",
+              "title": "Jug",
+              "text": "<p>In 2000, 62-year-old Griegst wins the Copenhagen Goldsmiths&rsquo; Guild&rsquo;s anonymous &lsquo;Silver on the Edge&rsquo; competition ahead of much younger designers with Wave, a silver jug of crashing waves caught in a moment of perfect harmonious disharmony. While the hyper- decorative, handle less piece looks seemingly impossible to use, its concave surfaces allow a perfect grip, making it a masterpiece of subtly ironic commentary on Scandinavian functionalism.<\/p>",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "desktop_layout": "right",
+              "mobile_layout": "top"
+            }
+          },
+          "1509972933885": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/Arje-Ra-028674_s186_187-copy_copy_3.jpg",
+              "alignment": "center center",
+              "title": "Cosmos Jewellery",
+              "text": "<p><em>Cosmos Ring, 20 carat gold, large pink raw diamond, 1991-1995<\/em><\/p>",
+              "text2": "<p>PHOTOGRAPHY: PIOTR TOPPERZER<\/p>",
+              "text_size": "medium",
+              "text_position": "bottom",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": false,
+              "overlay_color": "#000000",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0.5"
+            }
+          },
+          "1509973083411": {
+            "type": "imagetext",
+            "settings": {
+              "size": "large",
+              "background_color": "#e0aac6",
+              "image": "shopify:\/\/shop_images\/resized1_1b1d993e-d6c9-4ca2-aec9-c3ae5255474b.jpg",
+              "image_crop": "custom",
+              "custom_image_width": "320",
+              "custom_image_height": "400",
+              "alignment": "center center",
+              "use_image_subtitle": true,
+              "image_subtitle_text": "Cosmos ring, 20 carat gold, facet cut diamond and facet cut ruby, 1991-1995",
+              "title": "",
+              "text": "<p>Few things are more mysterious than the universe, and for an artist like Arje Griegst whose entire body of work is about strange, mythical kingdoms, the launch of the 1990 Hubble telescope is an instant gravitational pull. Its images of glittering galaxies and nebulas &ndash; like the Pillars of Creation rising from interstellar gas and dust like some divine primordial life force &ndash; send Griegst on a cosmic journey resulting in a series of celestial rings. Crafted in cire perdue, they look as if the gold has been bombarded by showers of meteorites or like distant asteroids, luring us with craters filled with raw diamonds and cabochon cut sapphires.<\/p>",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "desktop_layout": "left",
+              "mobile_layout": "top"
+            }
+          },
+          "1509973186865": {
+            "type": "twoimgcustomgallery",
+            "settings": {
+              "background_color": "#e0aac6",
+              "top_margin": true,
+              "bottom_margin": true,
+              "image1": "shopify:\/\/shop_images\/resized2_c47c4afd-841c-4279-9b37-ac22e5e7d5e6.jpg",
+              "alignment1": "center",
+              "image2": "shopify:\/\/shop_images\/ArjeG-026270_dg_91287_copy.JPG",
+              "alignment2": "center",
+              "heading_text": "PHOTOGRAPHY: PIOTR TOPPERZER",
+              "heading_color": "#3a3a3a",
+              "heading_style": "h3",
+              "paragraph_text": "<p><em>Cosmos ring, 20 carat gold, raw diamond and paraiba pearl, 1991-1995<\/em><br><em>The cosmos galaxy chandelier (mock-up) at The Belfiore Foundry, Pietrasanta, Italy, 2003<\/em><\/p>",
+              "paragraph_color": "#4a4a4a",
+              "paragraph_size": "1",
+              "align_text": "center"
+            }
+          },
+          "1509973518422": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/Arje-Ra-028668_r1_dg_91287_copy_2.jpg",
+              "alignment": "center center",
+              "title": "",
+              "text": "<p><em>Cosmos Ring, 20 carat gold, raw diamond, oriental baroque pearls, sapphire, 1991-1995<\/em><\/p>",
+              "text2": "<p>PHOTOGRAPHY: PIOTR TOPPERZER<\/p>",
+              "text_size": "medium",
+              "text_position": "bottom",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": false,
+              "overlay_color": "#000000",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0.5"
+            }
+          },
+          "1509973408733": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/scan20054_ny_91287_copy.jpg",
+              "alignment": "center center",
+              "title": "Faces",
+              "text": "<p><em>Gold ring, face cut in dark blue lapis lazuli, moonstone, 1971<\/em><\/p>",
+              "text2": "<p>PHOTOGRAPHY: JOHN JOHNSEN<\/p>",
+              "text_size": "medium",
+              "text_position": "bottom",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0"
+            }
+          },
+          "1509973637692": {
+            "type": "imagetext",
+            "settings": {
+              "size": "medium",
+              "background_color": "#faf9f6",
+              "image": "shopify:\/\/shop_images\/ArjeG-026211_dg_91287_copy.JPG",
+              "image_crop": "custom",
+              "custom_image_width": "300",
+              "custom_image_height": "400",
+              "alignment": "center center",
+              "use_image_subtitle": true,
+              "image_subtitle_text": "Havmand (Self portrait), silver ring, 1980",
+              "title": "",
+              "text": "<p>Faces appear throughout Arje Griegst&rsquo;s work as part of his self-styled fables. Finely detailed in cire perdue, pieced together from the mysticism of precious stones or cast as miniature busts displayed on a finger, they explore his fascination with metamorphosis in Greek and Roman mythology. <br>Many are self-portraits depicting Griegst&rsquo;s anxieties or fiery emotions, like a merman ring from the early eighties: a masterpiece modelled in solid beeswax, cast in a hard wax shell and finished in cire perdue to bring out all the lifelike, furious details. If sound came out of its mouth, it would be waves, wind and rolling thunder.<\/p>",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "desktop_layout": "left",
+              "mobile_layout": "top"
+            }
+          },
+          "1509974433091": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/Lille_Havfrrue.png",
+              "alignment": "center center",
+              "title": "",
+              "text": "<p>Den Lille Havfrue, 20 carat gold, 74 carat blue aquamarine, 76 diamonds 5 carat, 1971<\/p>",
+              "text2": "<p>PHOTOGRAPHY: JOHN JOHNSEN<\/p>",
+              "text_size": "medium",
+              "text_position": "bottom",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": false,
+              "overlay_color": "#000000",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0.5"
+            }
+          },
+          "1509974484603": {
+            "type": "customgallery",
+            "settings": {
+              "background_color": "#a18f80",
+              "top_margin": true,
+              "bottom_margin": true,
+              "image1": "shopify:\/\/shop_images\/N_120306_30_dg_91287_copy.jpg",
+              "alignment1": "bottom",
+              "image2": "shopify:\/\/shop_images\/haengesmykke_r1_91287_copy_ad5d0eda-96d7-4cc5-a1a4-663197cebd03.jpg",
+              "alignment2": "center",
+              "image3": "shopify:\/\/shop_images\/Arje-Ra-028742_r2_dg_91287_copy.jpg",
+              "alignment3": "bottom",
+              "heading_text": "",
+              "heading_color": "#3a3a3a",
+              "heading_style": "h3",
+              "paragraph_text": "<p><em>Pinocchio, black coral, 20 carat gold, raw opal, diamonds, sapphire, oriental pearl, 1993<\/em><br><em>Pendant, 20 carat gold, face cut in opal, diamonds baroque pearl, 1981<\/em><br><em>Sort Pinocchio, 20 carat gold, face cut in polished black coral, raw diamond, 1999<\/em><\/p>",
+              "paragraph_color": "#000000",
+              "paragraph_size": "1",
+              "align_text": "center"
+            }
+          },
+          "1509974580999": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/resizedbbbbb.jpg",
+              "alignment": "center center",
+              "title": "",
+              "text": "<p><em>Babyblomst, 20 carat gold, face cut in opal, cut moonstone, orange diamonds, 1980<\/em><\/p>",
+              "text2": "<p>PHOTOGRAPHY: JOHN JOHNSEN<\/p>",
+              "text_size": "medium",
+              "text_position": "bottom",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0"
+            }
+          },
+          "1509974842478": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/diadem_91287_copy.jpg",
+              "alignment": "center center",
+              "title": "Queen Margrethe II Tiara",
+              "text": "<p><em>Queen Margrethe II&rsquo;s tiara, 21 carat and 18 carat gold, amber, diamonds, moonstone, pearls, opals and emerald in the shape of a summer meadow with poppies, 1976<\/em><\/p>",
+              "text2": "<p>PHOTOGRAPHY: RIGMOR MYDTSKOV<\/p>",
+              "text_size": "medium",
+              "text_position": "bottom",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0"
+            }
+          },
+          "1509974900936": {
+            "type": "imagetext",
+            "settings": {
+              "size": "x-large",
+              "background_color": "#ffffff",
+              "image": "shopify:\/\/shop_images\/Strobek_-Dronning-Margrethe_-1977_copy.jpg",
+              "image_crop": "custom",
+              "custom_image_width": "320",
+              "custom_image_height": "400",
+              "alignment": "center center",
+              "use_image_subtitle": true,
+              "image_subtitle_text": "Portrait of Her Majesty Queen Margrethe II, with the pendant ‘Dansk Skov’, painted by Niels Strøbek in 1977",
+              "title": "",
+              "text": "<p>In 1971 Princess Margrethe handpicks Arje Griegst to make a piece of jewellery around one of her gemstones: a deep green facet-cut tourmaline. The result is the pendant Dansk Skov (Danish Forest, 1971-73), an intricate, sculptural cire perdue gold tree, which wraps its mysterious crown around the stone and reveals a stag hunting a wood nymph hiding in the foliage. A Danish interpretation of the Greek myth of Daphne and Apollo, it is a fitting motif for a princess who has studied archaeology and who, like Griegst, takes a keen interest in fairy tales and nature.<\/p>",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "desktop_layout": "left",
+              "mobile_layout": "top"
+            }
+          },
+          "1509975093848": {
+            "type": "imagetext",
+            "settings": {
+              "size": "x-large",
+              "background_color": "#ffffff",
+              "image": "shopify:\/\/shop_images\/Arje-Dr-029847_dg_91287_copy.jpg",
+              "image_crop": "custom",
+              "custom_image_width": "300",
+              "custom_image_height": "400",
+              "alignment": "center center",
+              "use_image_subtitle": true,
+              "image_subtitle_text": "Solopgangsøjlen, 20 carat gold, opals, raw tumelin, diamonds, 1964",
+              "title": "",
+              "text": "<p>Following her coronation, HM the Queen commissions a tiara. Wanting to portray a summer meadow swaying in the breeze, in 1976 Griegst dreams up a piece unlike any traditional tiara. The short-lived beauty of the poppy is frozen in time but executed with such lightness and animation that it almost vibrates. Cut moonstone is caught mid-dewdrop, a black opal beetle perches on a petal and a crystal spider stretches its legs between the delicate 21 carat gold stems, sewn on with needle and gold thread. Between the poppy leaves, diamonds and oriental pearl pistils emerge. With its amber pendants, it is a modern tribute to the Nordic heritage, harnessing an elegant renaissance spirit.<\/p>",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "desktop_layout": "right",
+              "mobile_layout": "top"
+            }
+          },
+          "1509975175320": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/Arje-Dr-029859_dg_91287_copy.jpg",
+              "alignment": "center center",
+              "title": "",
+              "text": "<p><em>Detail of Queen Margrethe II&rsquo;s tiara, 21 carat and 18 carat gold, amber, diamonds, moonstone, pearls, opals and emerald in the shape of a summer meadow with poppies, 1976<\/em><\/p>",
+              "text2": "<p>PHOTOGRAPHY: RIGMOR MYDTSKOV<\/p>",
+              "text_size": "medium",
+              "text_position": "bottom",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0"
+            }
+          },
+          "1509975231149": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/resized.jpg",
+              "alignment": "center center",
+              "title": "Porcelain jewellery",
+              "text": "<p><em>Havmand (Merman), pendant in porcelain with celadon glace, tin mounting, Royal Copenhagen, 1975<\/em><\/p>",
+              "text2": "<p>PHOTOGRAPHY: PIOTR TOPPERZER<\/p>",
+              "text_size": "medium",
+              "text_position": "bottom",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0"
+            }
+          },
+          "1509975320080": {
+            "type": "imagetext",
+            "settings": {
+              "size": "x-large",
+              "background_color": "#337957",
+              "image": "shopify:\/\/shop_images\/ArjeG5-027759_r1_dg_91287_copy.jpg",
+              "image_crop": "custom",
+              "custom_image_width": "300",
+              "custom_image_height": "400",
+              "alignment": "top left",
+              "use_image_subtitle": true,
+              "image_subtitle_text": "Pendant ‘Egemanden’ (The Oak Man) and Rosendamen (The Rose Lady) brooch, Royal Copenhagen, 1975",
+              "title": "",
+              "text": "<p>Arje Griegst&rsquo;s superior craftsmanship shows in the way he seamlessly moves from gold to porcelain and not only retains his extravagantly detailed language but also gives it new life. In 1971, Royal Copenhagen invites Griegst to be part of its newly established collaborative studio with silversmiths A. Michelsen (now part of Georg Jensen), set up to experiment with porcelain and silver.<\/p>",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "desktop_layout": "left",
+              "mobile_layout": "top"
+            }
+          },
+          "1509975386349": {
+            "type": "imagetext",
+            "settings": {
+              "size": "x-large",
+              "background_color": "#337957",
+              "image": "shopify:\/\/shop_images\/L1070974_copy.jpg",
+              "image_crop": "custom",
+              "custom_image_width": "320",
+              "custom_image_height": "350",
+              "alignment": "center left",
+              "use_image_subtitle": true,
+              "image_subtitle_text": "Tulipanpigen (The Tulip Girl), brooch, painted porcelain, Royal Copenhagen, 1976",
+              "title": "",
+              "text": "<p>The jewellery and belt buckle collection debuts in 1975 for Royal Copenhagen&rsquo;s 200-year anniversary and is Griegst&rsquo;s highly personal and playful take on Greek and Roman masks, showcasing his love of fusing the grotesque and the beautiful. Each piece, from the naughty cherubs based on his children to the devilish self-portrait Egemand (The Oak Man, a present to HM the Queen of Denmark), is a work of art: modelled first in plasticine and wax, then cast in plaster from silicone moulds before emerging from the plaster mould as lively porcelain faces, glazed in painterly colours and mounted in pewter and silver. It is while working on this collection that Griegst is asked by Royal Copenhagen to do the now legendary Triton dinnerware.<\/p>",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "desktop_layout": "right",
+              "mobile_layout": "top"
+            }
+          },
+          "1509975613128": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/rotated.jpg",
+              "alignment": "center center",
+              "title": "",
+              "text": "<p><em>Chain necklace in porcelain and gilted silver, consisting of five sprouting eggs enclosed by pink pearls. Royal Copenhagen, 1976<\/em><\/p>",
+              "text2": "<p>PHOTOGRAPHY: PIOTR TOPPERZER<\/p>",
+              "text_size": "medium",
+              "text_position": "bottom",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0"
+            }
+          },
+          "1509975677782": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/Arje-4-026742_dg_91287_copy.jpg",
+              "alignment": "center center",
+              "title": "Porcelain",
+              "text": "<p><em>Sea tureen, stone ware, celadon coloured glazes in six different nuances. App. 10 were made. Royal Copenhagen, 1976<\/em><\/p>",
+              "text2": "<p>PHOTOGRAPHY: PIOTR TOPPERZER<\/p>",
+              "text_size": "medium",
+              "text_position": "bottom",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": false,
+              "overlay_color": "#000000",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0.5"
+            }
+          },
+          "1509975847722": {
+            "type": "imagetext",
+            "settings": {
+              "size": "large",
+              "background_color": "#a2bac6",
+              "image": "shopify:\/\/shop_images\/Arje_Griegst_-_Trton_porcelain3_f745f021-172a-4eba-8aa4-7842703a11ef.jpg",
+              "image_crop": "custom",
+              "custom_image_width": "350",
+              "custom_image_height": "450",
+              "alignment": "center left",
+              "use_image_subtitle": true,
+              "image_subtitle_text": "Arje Griegst with his own pieces, Sea tureen, in Royal Copenhagen’s shop at Amagertorv. Copenhagen, 1976",
+              "title": "",
+              "text": "<p>The Triton dinnerware &ndash; or Konkyliestellet in Danish &ndash; remains one of the most sought-after archive dinner sets from Royal Copenhagen. Launched 1976-1978, it grew from Griegst&rsquo;s profound fascination with the sea and also consists of a coffee and tea service. Every piece is a fanciful, regal work of art in its own right. Together, they form a table worthy of a water god. It is an abstract, otherworldly take on sensual pink-lipped conch shells or a sandy seabed rippled by the current. The design looks almost soft, an effect that&rsquo;s created by pulling caramel-like wax into thin threads and attaching it to the plaster mould to create the pattern&rsquo;s rhythmic movement.<\/p>",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "desktop_layout": "left",
+              "mobile_layout": "top"
+            }
+          },
+          "1509975929185": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/ArjeG-konkylie.png",
+              "alignment": "center center",
+              "title": "",
+              "text": "<p><em>Coffee service in the pink glazed &rdquo;Konkylie&rdquo; (Triton) service. Royal Copenhagen, 1976.<\/em><\/p>",
+              "text2": "<p>PHOTOGRAPHY: PIOTR TOPPERZER<\/p>",
+              "text_size": "medium",
+              "text_position": "bottom",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0"
+            }
+          },
+          "1509975989434": {
+            "type": "imagetext",
+            "settings": {
+              "size": "large",
+              "background_color": "#a2bac6",
+              "image": "shopify:\/\/shop_images\/havterrin_91287_copy.jpg",
+              "image_crop": "custom",
+              "custom_image_width": "400",
+              "custom_image_height": "500",
+              "alignment": "center center",
+              "use_image_subtitle": true,
+              "image_subtitle_text": "Sea tureen, soup ladle in gilted silver. App. 10 pieces were made. Royal Copenhagen, 1976",
+              "title": "",
+              "text": "<p>To begin with, Triton is rose-tinted &ndash; a hue that&rsquo;s achieved by adding in real gold &ndash; and the costly colour is subsequently changed to white. Additionally, the complex technique makes it nearly impossible to produce in the quantities needed without compromising on the craftsmanship, and manufacturing is halted on the collection. At this time, Triton is available from antique dealers and at auction.<\/p>",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "desktop_layout": "right",
+              "mobile_layout": "top"
+            }
+          },
+          "1509976073007": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/rotated_6f535775-9822-4c95-a2ba-a3a3e8050f28.jpg",
+              "alignment": "center center",
+              "title": "",
+              "text": "<p><em>The pink glaced &ldquo;Konkylie&rdquo; (Triton) service. Royal Copenhagen, 1976<\/em><\/p>",
+              "text2": "<p>PHOTOGRAPHY: PIOTR TOPPERZER<\/p>",
+              "text_size": "medium",
+              "text_position": "bottom",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0"
+            }
+          },
+          "1509976211969": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/Arje-glas-028295_dg_91287_copy_copy.jpg",
+              "alignment": "center center",
+              "title": "Glass",
+              "text": "<p><em>Seven glasses were included in the crystal glass range &rdquo;Xanadu&rdquo;, water, beer, white wine, red wine, champagne and schnaps. Holmegaard Glassworks, 1983.<\/em><\/p>",
+              "text2": "<p>PHOTOGRAPHY: PIOTR TOPPERZER<\/p>",
+              "text_size": "medium",
+              "text_position": "bottom",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": false,
+              "overlay_color": "#000000",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0.5"
+            }
+          },
+          "1509976259472": {
+            "type": "imagetext",
+            "settings": {
+              "size": "x-large",
+              "background_color": "#a2bac6",
+              "image": "shopify:\/\/shop_images\/Arje-glas-vase.png",
+              "image_crop": "custom",
+              "custom_image_width": "310",
+              "custom_image_height": "350",
+              "alignment": "center center",
+              "use_image_subtitle": true,
+              "image_subtitle_text": "Glass goblet, stained glass Holmegaard Glasværk, 1981.",
+              "title": "",
+              "text": "<p>Dining from plates conjured from the bottom of a mythical ocean calls for glass that evokes a similar emotion. In 1983, Griegst releases Xanadu in collaboration with Holmegaard Glass Factory: a series of hand blown glittering crystal that swirls gently as if you&rsquo;re swimming underwater and looking up at the reflections on the surface. Because of the way the crystal is twisted into shape and how it varies in thickness, it becomes almost liquid and alive &ndash; the glass embodiment of the movement Griegst always pursued across all his mediums. The artisanal process eventually makes Xanadu too costly to produce and the collection can &ndash; for now &ndash; be sourced through antique dealers and auctions.<\/p>",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "desktop_layout": "left",
+              "mobile_layout": "top"
+            }
+          },
+          "1509976372283": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/Arje-4-026700_r1_dg_91287_copy.jpg",
+              "alignment": "center center",
+              "title": "Cutlery",
+              "text": "<p><em>&ldquo;Spire&rdquo; (sprout) cutlery made by Georg Jensen, 2002<\/em><\/p>",
+              "text2": "<p>PHOTOGRAPHY: PIOTR TOPPERZER<\/p>",
+              "text_size": "medium",
+              "text_position": "bottom",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0"
+            }
+          },
+          "1509976448382": {
+            "type": "imagetext",
+            "settings": {
+              "size": "x-large",
+              "background_color": "#a2bac6",
+              "image": "shopify:\/\/shop_images\/detail.jpg",
+              "image_crop": "custom",
+              "custom_image_width": "320",
+              "custom_image_height": "400",
+              "alignment": "top center",
+              "use_image_subtitle": true,
+              "image_subtitle_text": "Detail of “Spire” (sprout) cutlery made by Georg Jensen, 2002",
+              "title": "",
+              "text": "<p>To complement a table set with Triton dinnerware and Xanadu crystal glasses Arje Griegst creates Spire (Sprout): a set of sterling silver cutlery for Georg Jensen. It is underway for 22 years and finally unveiled in 2002, rewriting the rulebook on what cutlery should look like.<\/p>\n<p>As a symbol of growth, knives curl at the ends like baby ferns about to unfold while spoons and forks have bud finials. The comfortable handles wind asymmetrically like flower stalks before stretching out into utensils proper &ndash; an elegant bending of what we think characterises utensils. Currently, the collection is out of production and can be found antique and at auctions.<\/p>",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "desktop_layout": "left",
+              "mobile_layout": "top"
+            }
+          },
+          "1509976705146": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/CF098048-copy_copy.jpg",
+              "alignment": "center center",
+              "title": "Sculptures",
+              "text": "<p><em>Casting the fountain in bronze, Pietrasanta 1996<\/em><\/p>",
+              "text2": "<p>PHOTOGRAPHY: NOAM GRIEGST<\/p>",
+              "text_size": "medium",
+              "text_position": "bottom",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0"
+            }
+          },
+          "1509977161866": {
+            "type": "imagetext",
+            "settings": {
+              "size": "x-large",
+              "background_color": "#766e79",
+              "image": "shopify:\/\/shop_images\/japanspringv_0000AR_ny_copy.jpg",
+              "image_crop": "custom",
+              "custom_image_width": "320",
+              "custom_image_height": "500",
+              "alignment": "center center",
+              "use_image_subtitle": true,
+              "image_subtitle_text": "The Tivoli fountain for Tivoli Japan in front of the Bel Fiore bronze foundry, Pietrasanta 1996",
+              "title": "",
+              "text": "<p>Arje Griegst&rsquo;s bronze fountain masterpiece from 1989 is a particularly enchanting installation in the Tivoli gardens, Copenhagen. It is inspired by baroque Italian fountains and a crooked Danish tree, but seen through the Griegst looking glass those things become something else entirely.<\/p>\n<p>Writhing upward from black granite shaped like giant rock crystals, Konkyliefont&aelig;nen (The Conch Fountain) branches out into eight large gilded mussel shells from a twisted bronze trunk. Sculpted first in clay and then wet plaster, slices of wax were added and pulled at to create a ribbed bark effect, a technique similar to the Spiral jewellery pieces.<\/p>",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "desktop_layout": "left",
+              "mobile_layout": "top"
+            }
+          },
+          "1509977280850": {
+            "type": "imagetext",
+            "settings": {
+              "size": "x-large",
+              "background_color": "#766e79",
+              "image": "shopify:\/\/shop_images\/X2V6730-2_r1_dg_91287_copy.jpg",
+              "image_crop": "custom",
+              "custom_image_width": "320",
+              "custom_image_height": "400",
+              "alignment": "center center",
+              "use_image_subtitle": true,
+              "image_subtitle_text": "Fountain, bronze, Copenhagen 2005",
+              "title": "",
+              "text": "<p>Looking at it, you fully sense Griegst&rsquo;s idea that everything should have a function and a spiritual dimension. It is a magical fountain of life, like something King Triton would want if he walked on land. A 1996 version of the fountain sits in the Kurashiki Tivoli Park in Japan. Griegst also produced a fountain study in patinated bronze at Pietrasanta in the mid-2000s &ndash; a powerful self portrait showing Griegst as a water deity.<\/p>",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "desktop_layout": "right",
+              "mobile_layout": "top"
+            }
+          },
+          "1509977359291": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/11_del-1_A3_007_dg_91287_copy.jpg",
+              "alignment": "center center",
+              "title": "",
+              "text": "<p><em>The Tivoli fountain for Tivoli Japan is assessed, Arje Griegst 1996.<\/em><\/p>",
+              "text2": "<p>PHOTOGRAPHY: NOAM GRIEGST<\/p>",
+              "text_size": "medium",
+              "text_position": "bottom",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0"
+            }
+          },
+          "1509977401831": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/Arje-7-028156_r1_dg_91287-copy-2_copy.jpg",
+              "alignment": "center center",
+              "title": "Candlesticks and candelabraes",
+              "text": "<p><em>Konkylie-variation&rdquo;, sculptural, fire gilted candelabrum, base of untreated rough rock crystal, Designmuseum Denmark 1984<\/em><\/p>",
+              "text2": "<p>PHOTOGRAPHY: PIOTR TOPPERZER<\/p>",
+              "text_size": "medium",
+              "text_position": "bottom",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0"
+            }
+          },
+          "1509977468809": {
+            "type": "imagetext",
+            "settings": {
+              "size": "x-large",
+              "background_color": "#faf9f6",
+              "image": "shopify:\/\/shop_images\/ArjeG-029544_r1_dg_91287_copy.jpg",
+              "image_crop": "custom",
+              "custom_image_width": "320",
+              "custom_image_height": "400",
+              "alignment": "center center",
+              "use_image_subtitle": true,
+              "image_subtitle_text": "Arje Griegst’s first bronze candelabrae, cast in Verona, 1963",
+              "title": "",
+              "text": "<p>In Arje Griegst&rsquo;s hands, candlesticks become dynamic works of art. Freely reinterpreting rococo, surrealism and art nouveau, his unceremonious take on the genres produces a series of influential pieces in the eighties that go against the decade&rsquo;s cold, steely lines.<\/p>\n<p>From his first 1963 cire perdue bronze candlestick that almost melts across the table to his dramatic 1984 Konkylievariation (Variation on Conch) candelabrae, which sits on a raw rock crystal mountain and sprouts a water agate egg from its gilded, twisted ribbons &ndash; opulent enough to make Louis XIV blush &ndash; they all embody the idea of metamorphosis.<\/p>",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "desktop_layout": "left",
+              "mobile_layout": "top"
+            }
+          },
+          "1509977527920": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/ArjeG-003397bog_r1_dg_91287_copy.jpg",
+              "alignment": "top center",
+              "title": "",
+              "text": "<p><em>Wall candelabraes, bronze, Danmarks apotekerforening, Dehns Pal&aelig; Copenhagen, 1988<\/em><\/p>",
+              "text2": "<p>PHOTOGRAPHY: PIOTR TOPPERZER<\/p>",
+              "text_size": "medium",
+              "text_position": "bottom",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0"
+            }
+          },
+          "1509977600501": {
+            "type": "imagetext",
+            "settings": {
+              "size": "medium",
+              "background_color": "#faf9f6",
+              "image": "shopify:\/\/shop_images\/ArjeG-03613_dg_91287_copy.jpg",
+              "image_crop": "custom",
+              "custom_image_width": "320",
+              "custom_image_height": "400",
+              "alignment": "center center",
+              "use_image_subtitle": true,
+              "image_subtitle_text": "Egemanden and Bøgepigen, gilded bronze, 1976-1984",
+              "title": "",
+              "text": "<p>For the Association of Danish Pharmacies he dreams up a seven-branched bronze candelabrum for their Copenhagen mansion in 1986. Like a magic beanstalk on the bottom of an ocean it writhes into shell candleholders and crystal buds, strikingly lavish and organic in contrast to the classical architecture. Later matching wall lights almost seem to grow straight out of the walls as if it were a fantasy castle.<\/p>\n<p>Early cire perdue pieces like Egemanden and B&oslash;gepigen (The Oak Man and The Oak Girl, 1976- 1984) whose arms stretch into tree branches are examples of Griegst&rsquo;s magical transformations and riffs on Ovid&rsquo;s Metamorphoses, a theme also found in jewellery from the same period like the porcelain Oak Man. In other works, he uses plaster and wax techniques from jewellery to trace organic lines along a candlestick surface, wrapping the bronze around the candle like a crisp leaf.<\/p>",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "desktop_layout": "right",
+              "mobile_layout": "top"
+            }
+          },
+          "1509977645704": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/Arje-affoto-5256bog_dg_91287-copy.jpg",
+              "alignment": "center center",
+              "title": "Chandeliers",
+              "text": "<p><em>Sketch of the chandelier Cosmos Galaxi, 2003<\/em><\/p>",
+              "text2": "",
+              "text_size": "medium",
+              "text_position": "bottom",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0"
+            }
+          },
+          "1509977677024": {
+            "type": "imagetext",
+            "settings": {
+              "size": "x-large",
+              "background_color": "#ffffff",
+              "image": "shopify:\/\/shop_images\/no.jpg",
+              "image_crop": "custom",
+              "custom_image_width": "400",
+              "custom_image_height": "400",
+              "alignment": "center center",
+              "use_image_subtitle": true,
+              "image_subtitle_text": "The Cosmos Galaxi chandelier, 2008",
+              "title": "",
+              "text": "<p>When you are not an artist who favours things in moderation, there is hardly a more sacred object than the crown symbol of opulence: the chandelier. During the 2000s, Griegst completely re-imagines the chandelier with two seminal pieces, born from his fascination with cosmic wonders and crafted at the Bel Fiore bronze foundry in Pietrasanta, Italy &ndash; one being Galaxi, which hangs at Design Museum Denmark like a giant, crystallised Big Bang. Its spiral galaxy is forged in copper adorned with wavy filigree bronze loops, sparkling with crystal glass prisms made from Griegst&rsquo;s Holmegaard glassware production leftovers. Seemingly lit up from within by invisibly placed halogen spots, every single piece of glass has been placed and considered individually.<\/p>",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "desktop_layout": "left",
+              "mobile_layout": "top"
+            }
+          },
+          "1510002152425": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/ArjeG-848-2_dg_91287.jpg",
+              "alignment": "center center",
+              "title": "",
+              "text": "<p><em>The Cosmos Galaxi chandelier, Designmuseum Denmark 2003<\/em><\/p>",
+              "text2": "<p>PHOTOGRAPHY: PIOTR TOPPERZER<\/p>",
+              "text_size": "medium",
+              "text_position": "bottom",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0"
+            }
+          },
+          "1510002208260": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/Arje_affoto-springvand.png",
+              "alignment": "center center",
+              "title": "Sketches",
+              "text": "<p><em>Sketch for fountain, 2003.<\/em><\/p>",
+              "text2": "",
+              "text_size": "medium",
+              "text_position": "bottom",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0"
+            }
+          },
+          "1510002346418": {
+            "type": "twoimgcustomgallery",
+            "settings": {
+              "background_color": "#999999",
+              "top_margin": true,
+              "bottom_margin": true,
+              "image1": "shopify:\/\/shop_images\/Arje_affoto_skitse_til_galaxy.png",
+              "alignment1": "center",
+              "image2": "shopify:\/\/shop_images\/Arje_affoto-havmand.png",
+              "alignment2": "center",
+              "heading_text": "",
+              "heading_color": "#3a3a3a",
+              "heading_style": "h3",
+              "paragraph_text": "<p><em>Sketch for Cosmos Galaxi chandelier, 2003.<\/em><br><em>Coloured sketch of a creature carrying a shell, 1992.<\/em><\/p>",
+              "paragraph_color": "#000000",
+              "paragraph_size": "1",
+              "align_text": "center"
+            }
+          },
+          "1510002422177": {
+            "type": "hero",
+            "settings": {
+              "hero_size": "fullscreen",
+              "image": "shopify:\/\/shop_images\/Arje_affoto-skite_til_sprinvand.png",
+              "alignment": "center center",
+              "title": "",
+              "text": "<p><em>Section of a sketch for the &lsquo;Konkylie&rsquo; (Conch) Fountain for Tivoli Garden, mid-1980s.<\/em><\/p>",
+              "text2": "",
+              "text_size": "medium",
+              "text_position": "bottom",
+              "use_second_button": false,
+              "button_label": "",
+              "button_link": "",
+              "show_overlay": false,
+              "overlay_color": "#000000",
+              "overlay_text": "#ffffff",
+              "overlay_opacity": "0"
+            }
+          },
+          "1510002745194": {
+            "type": "oneimgcustomgallery",
+            "settings": {
+              "background_color": "#3c2d41",
+              "top_margin": true,
+              "bottom_margin": true,
+              "image1": "shopify:\/\/shop_images\/Griegstskulp_Bronze_work.png",
+              "alignment1": "center",
+              "heading_text": "",
+              "heading_color": "#3a3a3a",
+              "heading_style": "h3",
+              "paragraph_text": "",
+              "paragraph_color": "#ffffff",
+              "paragraph_size": "1.5",
+              "align_text": "center"
+            }
+          }
+        },
+        "block_order": [
+          "1508600353887",
+          "1508602896425",
+          "1508603575018",
+          "1508603606401",
+          "1508606063443",
+          "1508606132571",
+          "1508606210420",
+          "1508606294595",
+          "1508606351964",
+          "1508606423547",
+          "1508606500000",
+          "1508606561757",
+          "1508606614356",
+          "1508606852261",
+          "1508876326401",
+          "1508876639515",
+          "1508876760670",
+          "1508876838988",
+          "1508876970792",
+          "1508877274205",
+          "1508877410127",
+          "1509972933885",
+          "1509973083411",
+          "1509973186865",
+          "1509973518422",
+          "1509973408733",
+          "1509973637692",
+          "1509974433091",
+          "1509974484603",
+          "1509974580999",
+          "1509974842478",
+          "1509974900936",
+          "1509975093848",
+          "1509975175320",
+          "1509975231149",
+          "1509975320080",
+          "1509975386349",
+          "1509975613128",
+          "1509975677782",
+          "1509975847722",
+          "1509975929185",
+          "1509975989434",
+          "1509976073007",
+          "1509976211969",
+          "1509976259472",
+          "1509976372283",
+          "1509976448382",
+          "1509976705146",
+          "1509977161866",
+          "1509977280850",
+          "1509977359291",
+          "1509977401831",
+          "1509977468809",
+          "1509977527920",
+          "1509977600501",
+          "1509977645704",
+          "1509977677024",
+          "1510002152425",
+          "1510002208260",
+          "1510002346418",
+          "1510002422177",
+          "1510002745194"
+        ],
+        "settings": {
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "cart_notes_enable": false,
+          "trust_text_enable": true,
+          "terms_and_conditions_disable": true
+        }
+      },
+      "1508879735242": {
+        "type": "featured-collection",
+        "settings": {
+          "collection": "cosmos-and-stardust",
+          "show_spacing": false,
+          "title": "",
+          "show_vendor": false,
+          "show_view_all": false,
+          "use_second_button": false,
+          "background_color": "#6789c7",
+          "products": 3,
+          "rows": 16
+        }
+      },
+      "product-template-slider": {
+        "type": "product-template-slider",
+        "settings": {
+          "show_quantity_selector": false,
+          "show_variant_labels": true,
+          "show_vendor": false,
+          "hide_variant_images": false,
+          "show_share_buttons": false
+        }
+      },
+      "1508894532227": {
+        "type": "featured-collection",
+        "settings": {
+          "collection": "spirals-1",
+          "show_spacing": false,
+          "title": "",
+          "show_vendor": false,
+          "show_view_all": false,
+          "use_second_button": false,
+          "background_color": "#00572d",
+          "products": 3,
+          "rows": 5
+        }
+      },
+      "1508894609422": {
+        "type": "hero",
+        "settings": {
+          "hero_size": "x-large",
+          "image": "shopify:\/\/shop_images\/SPIRAL_SECTION_HEADER-1.png",
+          "alignment": "bottom center",
+          "title": "Spirals",
+          "text": "<p><\/p>\n<p>Using his own wax mixture and cast technique, Arje Griegst traces energetic,&nbsp;ribbed lines in 18 carat gold spirals, like locks of golden hair. The gold quivers&nbsp;and comes alive.<\/p>",
+          "text2": "<p>SPIRAL BRACELET No. 6, 18CT GOLD<\/p>",
+          "text_size": "medium",
+          "text_position": "bottom",
+          "use_second_button": false,
+          "button_label": "",
+          "button_link": "",
+          "show_overlay": false,
+          "overlay_color": "#000000",
+          "overlay_text": "#ffffff",
+          "overlay_opacity": "0"
+        }
+      },
+      "1508894786159": {
+        "type": "hero",
+        "settings": {
+          "hero_size": "x-large",
+          "image": "shopify:\/\/shop_images\/COSMOS_SECTION_HEADER.png",
+          "alignment": "bottom center",
+          "title": "Cosmos and Stardust",
+          "text": "<p>&nbsp;Like a distant asteroid luring you in with a raw ruby-filled crater, the Cosmos ring is sculpted in gold using Arje Griegst cire perdue technique. While the surface echoes a meteor-dimpled rock, the inside of the ring is smooth against the skin.&nbsp;<\/p>",
+          "text2": "<p><\/p>\n<p>Cosmos ring &amp; stardust ring WITH RAW RUBY, DIAMONDS &amp; sapphire, 18 CT GOLD<\/p>",
+          "text_size": "medium",
+          "text_position": "bottom",
+          "use_second_button": false,
+          "button_label": "",
+          "button_link": "",
+          "show_overlay": false,
+          "overlay_color": "#000000",
+          "overlay_text": "#ffffff",
+          "overlay_opacity": "0"
+        }
+      },
+      "hero": {
+        "type": "hero",
+        "settings": {
+          "hero_size": "fullscreen",
+          "image": "shopify:\/\/shop_images\/FS_griegst_high.png",
+          "alignment": "center center",
+          "title": "",
+          "text": "",
+          "text2": "",
+          "text_size": "medium",
+          "text_position": "bottom",
+          "use_second_button": false,
+          "button_label": "",
+          "button_link": "",
+          "show_overlay": true,
+          "overlay_color": "#000000",
+          "overlay_text": "#ffffff",
+          "overlay_opacity": "0"
+        }
+      },
+      "1510010316897": {
+        "type": "hero",
+        "settings": {
+          "hero_size": "x-large",
+          "image": "shopify:\/\/shop_images\/COSMOS_SECTION.png",
+          "alignment": "bottom center",
+          "title": "Waves",
+          "text": "<p>The articulated Waves series from the second half of the nineties showcases Arje Griegst&rsquo;s&nbsp;ongoing&nbsp;fascination with&nbsp;depicting the natural world &ndash; but not as we know it.<\/p>",
+          "text2": "<p>WAVE RINGS WITH RAW EMERALD, RAW RUBY AND DIAMONDS, 18 CT GOLD<\/p>",
+          "text_size": "medium",
+          "text_position": "bottom",
+          "use_second_button": false,
+          "button_label": "",
+          "button_link": "",
+          "show_overlay": false,
+          "overlay_color": "#000000",
+          "overlay_text": "#ffffff",
+          "overlay_opacity": "0"
+        }
+      },
+      "heroindex": {
+        "type": "heroindex",
+        "settings": {
+          "desktopImage": "shopify:\/\/shop_images\/GriegstHeader.jpg",
+          "desktopAlignment": "center center",
+          "mobileImage": "shopify:\/\/shop_images\/GRIEGST_CAMPAIGN.png",
+          "mobileAlignment": "center center",
+          "loadingImage": "shopify:\/\/shop_images\/loading_23af3178-318b-4048-9fdc-4bb33412d70e.png",
+          "loadingImage_height": "200"
+        }
+      },
+      "featured-collection": {
+        "type": "featured-collection",
+        "settings": {
+          "collection": "available-online",
+          "show_spacing": false,
+          "title": "",
+          "show_vendor": false,
+          "show_view_all": false,
+          "use_second_button": false,
+          "background_color": "#6789c7",
+          "products": 3,
+          "rows": 100
+        }
+      },
+      "password-header": {
+        "type": "password-header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/logo_large_black_simple_df9365d4-3ca4-4ed6-966f-907a66e6be6d.png",
+          "logo_max_width": "400"
+        }
+      },
+      "password-content": {
+        "type": "password-content",
+        "settings": {
+          "header": "Opening Soon",
+          "newsletter_enable": false,
+          "newsletter_form_heading": "Find out when we open",
+          "newsletter_placeholder": "Email address",
+          "newsletter_button_text": "Submit",
+          "show_share_buttons": false,
+          "social_message": "Spread the word"
+        }
+      },
+      "password-footer": {
+        "type": "password-footer",
+        "settings": {
+          "show_powered_by": false
+        }
+      },
+      "1510010463482": {
+        "type": "featured-collection",
+        "settings": {
+          "collection": "waves",
+          "show_spacing": false,
+          "title": "",
+          "show_vendor": false,
+          "show_view_all": false,
+          "use_second_button": false,
+          "background_color": "#c7a9a2",
+          "products": 3,
+          "rows": 5
+        }
+      },
+      "1511455509100": {
+        "type": "hero",
+        "settings": {
+          "hero_size": "x-large",
+          "image": "shopify:\/\/shop_images\/FACES_SECTION_HEADER_1.png",
+          "alignment": "top center",
+          "title": "Heavens Faces",
+          "text": "<p>Faces appear throughout Arje Griegst&rsquo;s work as part of his self-styled fables. Finely detailed in cire perdue, pieced together from the mysticism of precious stones&nbsp;or cast as miniature busts, they explore his fascination with metamorphosis in Greek and Roman mythology.<\/p>",
+          "text2": "<p>SMALL HEAVENS FACE DIAMOND, LUCY IN THE SKY WITH DIAMONDS, OAK WOMAN, 18 CT GOLD<\/p>",
+          "text_size": "medium",
+          "text_position": "bottom",
+          "use_second_button": false,
+          "button_label": "",
+          "button_link": "",
+          "show_overlay": false,
+          "overlay_color": "#000000",
+          "overlay_text": "#ffffff",
+          "overlay_opacity": "0.5"
+        }
+      },
+      "1511455546967": {
+        "type": "featured-collection",
+        "settings": {
+          "collection": "heavens-face",
+          "show_spacing": false,
+          "title": "",
+          "show_vendor": false,
+          "show_view_all": false,
+          "use_second_button": false,
+          "background_color": "rgba(0,0,0,0)",
+          "products": 3,
+          "rows": 2
+        }
+      },
+      "1524140743611": {
+        "type": "grid-main",
+        "settings": {
+          "size": "medium",
+          "background_color": "#faf9f6",
+          "image": "",
+          "image_crop": "none",
+          "alignment": "center center",
+          "use_image_subtitle": false,
+          "image_subtitle_text": "Caption text",
+          "title": "Image with text",
+          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "use_second_button": false,
+          "button_label": "",
+          "button_link": "",
+          "desktop_layout": "right",
+          "mobile_layout": "top"
+        }
+      }
+    },
+    "content_for_index": [
+      "1508894609422",
+      "1508894532227",
+      "1508894786159",
+      "1508879735242",
+      "1510010316897",
+      "1510010463482",
+      "1511455509100",
+      "1511455546967",
+      "1524140743611"
+    ]
+  },
+  "presets": {
+    "Warm": {
+      "color_primary": "#eb4f47",
+      "color_header_text": "#e1c9b4",
+      "color_primary_heading_text": "#4a4a4a",
+      "color_primary_body_text": "#4a4a4a",
+      "color_footer_text": "#4a4a4a",
+      "color_button_text": "#ffffff",
+      "color_header_bg": "#fff",
+      "color_footer_bg": "#eae7e0",
+      "color_main_bg": "#faf9f6",
+      "color_secondary_bg": "#f4f1ec",
+      "color_menu_bg": "rgba(0,0,0,0)",
+      "color_product_cards": "#fff",
+      "color_form_elements": "#fff",
+      "color_cart_flag": "#eb4f47",
+      "type_base_size": "62.5%",
+      "type_header_family": "Baskerville MT, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif",
+      "type_bold_titles": false,
+      "type_base_family": "'Avenir', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+      "show_cart_drawer": true,
+      "show_cart_note": false,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_tumblr_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#1990C6",
+      "checkout_button_color": "#1990C6",
+      "checkout_error_color": "#ff6d6d",
+      "logo_max_height": "15",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "icon": "bag",
+            "logo_max_height": "15",
+            "enable_transparent": true,
+            "transparent_text_color": "#ffffff",
+            "primary_navigation": "main-menu",
+            "secondary_navigation": "footer",
+            "show_social_icons": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1486649858082": {
+              "type": "menu",
+              "settings": {
+                "link_list": "footer"
+              }
+            }
+          },
+          "block_order": [
+            "1486649858082"
+          ],
+          "settings": {
+            "show_social_icons": true,
+            "show_payment_icons": true,
+            "enable_parallax": true,
+            "show_newsletter": true
+          }
+        },
+        "1476381402840": {
+          "type": "video",
+          "settings": {
+          }
+        },
+        "1476381658595": {
+          "type": "hero",
+          "settings": {
+            "hero_size": "large",
+            "image": "",
+            "alignment": "top left",
+            "text_size": "medium",
+            "use_second_button": false,
+            "button_label": "",
+            "button_link": "",
+            "show_overlay": false,
+            "overlay_color": "#000000",
+            "overlay_text": "#3a3a3a",
+            "overlay_opacity": "0.5"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "products": "2",
+            "rows": "6",
+            "product_tags_enable": false,
+            "product_sorting_enable": false,
+            "collection_hero_image": false,
+            "collection_hero_image_parallax": false,
+            "show_spacing": false,
+            "show_vendor": true
+          }
+        },
+        "1478026923193": {
+          "type": "feature-row",
+          "settings": {
+            "size": "large",
+            "background_color": "#faf9f6",
+            "image_crop": "circle",
+            "alignment": "top left",
+            "use_second_button": false,
+            "button_label": "",
+            "button_link": "",
+            "desktop_layout": "left",
+            "mobile_layout": "top"
+          }
+        },
+        "1478027260401": {
+          "type": "quotes",
+          "blocks": {
+            "1478027260401-0": {
+              "type": "quote",
+              "settings": {
+              }
+            },
+            "1478027389453": {
+              "type": "quote",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1478027260401-0",
+            "1478027389453"
+          ],
+          "settings": {
+            "color_bg": "#000000",
+            "color_text": "#ffffff",
+            "autoplay_speed": "6000"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_variant_labels": true,
+            "show_vendor": false,
+            "hide_variant_images": true,
+            "show_share_buttons": true
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_date": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "1486649146314": {
+              "type": "image",
+              "settings": {
+              }
+            },
+            "1486649185448": {
+              "type": "image",
+              "settings": {
+              }
+            },
+            "1486649208703": {
+              "type": "image",
+              "settings": {
+              }
+            },
+            "1486649267624": {
+              "type": "image",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1486649146314",
+            "1486649185448",
+            "1486649208703",
+            "1486649267624"
+          ],
+          "settings": {
+            "cta": "view more",
+            "show_overlay": true,
+            "overlay_color": "#313131",
+            "overlay_text": "#ffffff",
+            "overlay_opacity": "0.3"
+          }
+        },
+        "1486649413883": {
+          "type": "gallery",
+          "blocks": {
+            "1486649413883-0": {
+              "type": "image",
+              "settings": {
+              }
+            },
+            "1486649413883-1": {
+              "type": "image",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1486649413883-0",
+            "1486649413883-1"
+          ],
+          "settings": {
+            "section_height": "medium",
+            "show_overlay": true,
+            "overlay_color": "#3b3b3b",
+            "overlay_text": "#ffffff",
+            "overlay_opacity": "0.4"
+          }
+        },
+        "1486649522802": {
+          "type": "highlight",
+          "settings": {
+            "border_color": "#cbc8c1",
+            "content_alignment": "middle",
+            "image_position": "back",
+            "use_second_button": false
+          }
+        },
+        "1486649604878": {
+          "type": "featured-slider",
+          "blocks": {
+            "1486649604878-0": {
+              "type": "slide",
+              "settings": {
+                "background_color": "#9d988b"
+              }
+            },
+            "1486649604878-1": {
+              "type": "slide",
+              "settings": {
+                "background_color": "#cdcdcd"
+              }
+            },
+            "1486649604878-2": {
+              "type": "slide",
+              "settings": {
+                "background_color": "#a7a59e"
+              }
+            },
+            "1486649769533": {
+              "type": "slide",
+              "settings": {
+                "background_color": "#383a3c"
+              }
+            }
+          },
+          "block_order": [
+            "1486649604878-0",
+            "1486649604878-1",
+            "1486649604878-2",
+            "1486649769533"
+          ],
+          "settings": {
+            "use_second_button": false,
+            "text_color": "#ffffff",
+            "cover_title_desktop_position": "center",
+            "show_overlay": true,
+            "overlay_color": "#404040",
+            "overlay_text": "#ffffff",
+            "overlay_opacity": "0.2"
+          }
+        },
+        "1486649811524": {
+          "type": "featured-product",
+          "settings": {
+            "layout": "square",
+            "image_size": "cover",
+            "background_color": "transparent",
+            "show_quantity_selector": false,
+            "show_variant_labels": true,
+            "show_vendor": false,
+            "show_share_buttons": true
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "image_parallax": true,
+            "show_date": true,
+            "show_author": false,
+            "show_share_buttons": true
+          }
+        },
+        "1492806970384": {
+          "type": "custom-content",
+          "blocks": {
+            "1492806970384-0": {
+              "type": "text",
+              "settings": {
+                "heading_text": "",
+                "heading_color": "#3a3a3a",
+                "heading_style": "h4",
+                "width": "100%",
+                "alignment": "center",
+                "align_text": "center"
+              }
+            }
+          },
+          "block_order": [
+            "1492806970384-0"
+          ],
+          "settings": {
+            "heading_text": "",
+            "heading_color": "#3a3a3a",
+            "background_color": "",
+            "top_margin": true,
+            "bottom_margin": false
+          }
+        }
+      },
+      "content_for_index": [
+        "1478026923193",
+        "1476381402840",
+        "1476381658595",
+        "1486649413883",
+        "1478027260401",
+        "1492806970384",
+        "1486649522802",
+        "1486649604878",
+        "1486649811524"
+      ]
+    },
+    "Light": {
+      "color_primary": "#dfa160",
+      "color_header_text": "#dfa160",
+      "color_primary_heading_text": "#000000",
+      "color_primary_body_text": "#4a4a4a",
+      "color_footer_text": "#ffffff",
+      "color_button_text": "#ffffff",
+      "color_header_bg": "#fff",
+      "color_footer_bg": "#dfa160",
+      "color_main_bg": "#ffffff",
+      "color_secondary_bg": "#f7f7f7",
+      "color_menu_bg": "rgba(0,0,0,0)",
+      "color_product_cards": "#ebebeb",
+      "color_form_elements": "#f1f1f1",
+      "color_cart_flag": "#b76b50",
+      "type_base_size": "62.5%",
+      "type_header_family": "Google_Open+Sans_400_sans",
+      "type_bold_titles": true,
+      "type_base_family": "Google_Open+Sans_400_sans",
+      "show_cart_drawer": true,
+      "show_cart_note": false,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_tumblr_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#1990C6",
+      "checkout_button_color": "#1990C6",
+      "checkout_error_color": "#ff6d6d",
+      "transparent_logo": "",
+      "logo_max_height": "15",
+      "sections": {
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "1486583739899": {
+              "type": "video",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1486583739899"
+          ],
+          "settings": {
+            "cta": "Shop now",
+            "show_overlay": true,
+            "overlay_color": "#ffffff",
+            "overlay_text": "#000000",
+            "overlay_opacity": "0.5"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "icon": "bag",
+            "logo_max_height": "18",
+            "enable_transparent": true,
+            "transparent_text_color": "#dfa160",
+            "primary_navigation": "main-menu",
+            "secondary_navigation": "footer",
+            "show_social_icons": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1486586799558": {
+              "type": "menu",
+              "settings": {
+                "link_list": "footer"
+              }
+            }
+          },
+          "block_order": [
+            "1486586799558"
+          ],
+          "settings": {
+            "show_social_icons": true,
+            "show_payment_icons": true,
+            "enable_parallax": true,
+            "show_newsletter": true
+          }
+        },
+        "feature-row": {
+          "type": "feature-row",
+          "settings": {
+            "size": "large",
+            "background_color": "#fafafa",
+            "image_crop": "square",
+            "alignment": "center center",
+            "use_second_button": false,
+            "button_label": "",
+            "button_link": "",
+            "desktop_layout": "left",
+            "mobile_layout": "top"
+          }
+        },
+        "gallery": {
+          "type": "gallery",
+          "blocks": {
+            "1486502632685-0": {
+              "type": "image",
+              "settings": {
+                "alignment": "center center",
+                "icon": "checkmark",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "1486502632685-0"
+          ],
+          "settings": {
+            "section_height": "medium",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_text": "#ffffff",
+            "overlay_opacity": "0.5"
+          }
+        },
+        "featured-slider": {
+          "type": "featured-slider",
+          "blocks": {
+            "1486503036275-0": {
+              "type": "slide",
+              "settings": {
+                "background_color": "#ebebeb",
+                "show_image": true,
+                "slide_button_text": "",
+                "slide_button_url": ""
+              }
+            },
+            "1486503036275-2": {
+              "type": "slide",
+              "settings": {
+                "background_color": "#ebebeb",
+                "show_image": true,
+                "slide_button_text": "",
+                "slide_button_url": ""
+              }
+            },
+            "1486503036275-1": {
+              "type": "slide",
+              "settings": {
+                "background_color": "#ebebeb",
+                "show_image": true,
+                "slide_button_text": "",
+                "slide_button_url": ""
+              }
+            },
+            "1487016418120": {
+              "type": "slide",
+              "settings": {
+                "background_color": "#ebebeb",
+                "show_image": false,
+                "slide_image": "",
+                "slide_title": ""
+              }
+            }
+          },
+          "block_order": [
+            "1486503036275-0",
+            "1486503036275-2",
+            "1486503036275-1",
+            "1487016418120"
+          ],
+          "settings": {
+            "use_second_button": true,
+            "text_color": "#000000",
+            "cover_title_desktop_position": "center",
+            "show_overlay": true,
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_text": "#000000",
+            "overlay_opacity": "0.5"
+          }
+        },
+        "1486583009346": {
+          "type": "feature-row",
+          "settings": {
+            "size": "large",
+            "background_color": "#ffffff",
+            "image_crop": "none",
+            "alignment": "top left",
+            "use_second_button": false,
+            "button_label": "About us",
+            "desktop_layout": "right",
+            "mobile_layout": "bottom"
+          }
+        },
+        "1486584613697": {
+          "type": "hero",
+          "settings": {
+            "hero_size": "large",
+            "alignment": "center center",
+            "text": "",
+            "text_size": "medium",
+            "use_second_button": false,
+            "button_label": "",
+            "button_link": "",
+            "show_overlay": true,
+            "overlay_color": "#ffffff",
+            "overlay_text": "#3a3a3a",
+            "overlay_opacity": "0"
+          }
+        },
+        "1486584983006": {
+          "type": "highlight",
+          "settings": {
+            "border_color": "#dfa160",
+            "content_alignment": "middle",
+            "image_position": "back",
+            "use_second_button": false,
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "products": "2",
+            "rows": "6",
+            "product_tags_enable": false,
+            "product_sorting_enable": true,
+            "collection_hero_image": true,
+            "collection_hero_image_parallax": true,
+            "show_spacing": false,
+            "show_vendor": true
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_variant_labels": true,
+            "show_vendor": true,
+            "hide_variant_images": true,
+            "show_share_buttons": true
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_date": true
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "image_parallax": true,
+            "show_date": true,
+            "show_author": false,
+            "show_share_buttons": true
+          }
+        },
+        "1492008725684": {
+          "type": "hero",
+          "settings": {
+            "hero_size": "x-large",
+            "alignment": "top center",
+            "title": "",
+            "text": "",
+            "text_size": "medium",
+            "use_second_button": false,
+            "button_label": "Read our blog",
+            "show_overlay": false,
+            "overlay_color": "#000000",
+            "overlay_text": "#3a3a3a",
+            "overlay_opacity": "0.5"
+          }
+        },
+        "1492807242211": {
+          "type": "custom-content",
+          "blocks": {
+            "1492807242211-0": {
+              "type": "text",
+              "settings": {
+                "heading_text": "",
+                "heading_color": "#3a3a3a",
+                "heading_style": "h3",
+                "width": "100%",
+                "alignment": "center",
+                "align_text": "center"
+              }
+            }
+          },
+          "block_order": [
+            "1492807242211-0"
+          ],
+          "settings": {
+            "heading_text": "",
+            "heading_color": "#3a3a3a",
+            "background_color": "",
+            "top_margin": true,
+            "bottom_margin": false
+          }
+        }
+      },
+      "content_for_index": [
+        "feature-row",
+        "1486584613697",
+        "1486583009346",
+        "gallery",
+        "1492807242211",
+        "1486584983006",
+        "featured-slider",
+        "1492008725684"
+      ]
+    },
+    "Cold": {
+      "color_primary": "#00b490",
+      "color_header_text": "#00b490",
+      "color_primary_heading_text": "#ffffff",
+      "color_primary_body_text": "#a9a9a9",
+      "color_footer_text": "#000000",
+      "color_button_text": "#000000",
+      "color_header_bg": "#191c1b",
+      "color_footer_bg": "#00b490",
+      "color_main_bg": "#000000",
+      "color_secondary_bg": "#191c1b",
+      "color_menu_bg": "rgba(0,0,0,0)",
+      "color_product_cards": "#191c1b",
+      "color_form_elements": "#292c2b",
+      "color_cart_flag": "#ffffff",
+      "type_base_size": "62.5%",
+      "type_header_family": "Google_Titillium+Web_400_sans",
+      "type_bold_titles": true,
+      "type_base_family": "Google_Lato_400_sans",
+      "show_cart_drawer": true,
+      "show_cart_note": false,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_tumblr_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#1990C6",
+      "checkout_button_color": "#1990C6",
+      "checkout_error_color": "#ff6d6d",
+      "transparent_logo": "",
+      "logo_max_height": "15",
+      "sections": {
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "1486663529263": {
+              "type": "video",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1486663529263"
+          ],
+          "settings": {
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_text": "#ffffff",
+            "overlay_opacity": "0.6"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "icon": "cart",
+            "logo_max_height": "16",
+            "enable_transparent": true,
+            "transparent_text_color": "#00b490",
+            "primary_navigation": "main-menu",
+            "secondary_navigation": "footer",
+            "show_social_icons": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1486664283354": {
+              "type": "menu",
+              "settings": {
+                "link_list": "footer"
+              }
+            }
+          },
+          "block_order": [
+            "1486664283354"
+          ],
+          "settings": {
+            "show_social_icons": true,
+            "show_payment_icons": true,
+            "enable_parallax": true,
+            "show_newsletter": true,
+            "newsletter_heading": "Sign up for updates",
+            "newsletter_button": "Ok"
+          }
+        },
+        "feature-row": {
+          "type": "feature-row",
+          "settings": {
+            "size": "large",
+            "background_color": "#191c1b",
+            "image_crop": "circle",
+            "alignment": "center center",
+            "use_second_button": false,
+            "desktop_layout": "left",
+            "mobile_layout": "top"
+          }
+        },
+        "gallery": {
+          "type": "gallery",
+          "blocks": {
+            "1486502632685-0": {
+              "type": "image",
+              "settings": {
+                "icon": "checkmark"
+              }
+            },
+            "1486502639654": {
+              "type": "image",
+              "settings": {
+                "icon": "checkmark"
+              }
+            },
+            "1486502643820": {
+              "type": "image",
+              "settings": {
+                "icon": "checkmark"
+              }
+            }
+          },
+          "block_order": [
+            "1486502632685-0",
+            "1486502639654",
+            "1486502643820"
+          ],
+          "settings": {
+            "section_height": "medium",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_text": "#ffffff",
+            "overlay_opacity": "0.5"
+          }
+        },
+        "featured-slider": {
+          "type": "featured-slider",
+          "blocks": {
+            "1486503036275-0": {
+              "type": "slide",
+              "settings": {
+                "background_color": "#464f4e",
+                "show_image": true,
+                "slide_button_text": "View"
+              }
+            },
+            "1486503036275-1": {
+              "type": "slide",
+              "settings": {
+                "background_color": "#464f4e",
+                "show_image": true,
+                "slide_button_text": "View"
+              }
+            }
+          },
+          "block_order": [
+            "1486503036275-0",
+            "1486503036275-1"
+          ],
+          "settings": {
+            "use_second_button": true,
+            "text_color": "#ffffff",
+            "cover_title_desktop_position": "center",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_text": "#ffffff",
+            "overlay_opacity": "0.5"
+          }
+        },
+        "featured-collection": {
+          "type": "featured-collection",
+          "settings": {
+            "show_view_all": true
+          }
+        },
+        "1486664864970": {
+          "type": "hero",
+          "settings": {
+            "hero_size": "large",
+            "alignment": "top center",
+            "use_second_button": false,
+            "button_label": "",
+            "button_link": "",
+            "show_overlay": true,
+            "overlay_color": "#00b490",
+            "overlay_text": "#ffffff",
+            "overlay_opacity": "0"
+          }
+        },
+        "1486665151632": {
+          "type": "highlight",
+          "settings": {
+            "border_color": "#00b490",
+            "content_alignment": "middle",
+            "image_position": "back",
+            "use_second_button": true
+          }
+        },
+        "1486665428106": {
+          "type": "feature-row",
+          "settings": {
+            "size": "large",
+            "background_color": "",
+            "image_crop": "none",
+            "alignment": "top left",
+            "use_second_button": false,
+            "button_label": "",
+            "button_link": "",
+            "desktop_layout": "right",
+            "mobile_layout": "bottom"
+          }
+        },
+        "1486665657092": {
+          "type": "gallery",
+          "blocks": {
+            "1486665657092-0": {
+              "type": "image",
+              "settings": {
+                "alignment": "center center",
+                "icon": "none",
+                "cta_label": "",
+                "link": ""
+              }
+            },
+            "1486665657092-1": {
+              "type": "image",
+              "settings": {
+                "alignment": "center center",
+                "icon": "none",
+                "cta_label": "",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "1486665657092-0",
+            "1486665657092-1"
+          ],
+          "settings": {
+            "section_height": "medium",
+            "show_overlay": false,
+            "overlay_color": "#000000",
+            "overlay_text": "#ffffff",
+            "overlay_opacity": "0.3"
+          }
+        },
+        "1486665735205": {
+          "type": "hero",
+          "settings": {
+            "hero_size": "medium",
+            "alignment": "center center",
+            "title": "",
+            "text_size": "large",
+            "use_second_button": true,
+            "button_label": "about us",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_text": "#ffffff",
+            "overlay_opacity": "0.5"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_variant_labels": true,
+            "show_vendor": true,
+            "hide_variant_images": true,
+            "show_share_buttons": true
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "products": "2",
+            "rows": "4",
+            "product_tags_enable": false,
+            "product_sorting_enable": false,
+            "collection_hero_image": false,
+            "collection_hero_image_parallax": false,
+            "show_spacing": false,
+            "show_vendor": true
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_date": true
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "image_parallax": false,
+            "show_date": true,
+            "show_author": false,
+            "show_share_buttons": true
+          }
+        },
+        "1492804742195": {
+          "type": "custom-content",
+          "blocks": {
+            "1492804742195-0": {
+              "type": "text",
+              "settings": {
+                "heading_text": "",
+                "heading_color": "#3a3a3a",
+                "heading_style": "h3",
+                "width": "100%",
+                "alignment": "center",
+                "align_text": "center"
+              }
+            }
+          },
+          "block_order": [
+            "1492804742195-0"
+          ],
+          "settings": {
+            "heading_text": "",
+            "heading_color": "#3a3a3a",
+            "background_color": "#00b490",
+            "top_margin": true,
+            "bottom_margin": true
+          }
+        },
+        "1492805123317": {
+          "type": "custom-content",
+          "blocks": {
+            "1492805123317-0": {
+              "type": "text",
+              "settings": {
+                "heading_text": "",
+                "heading_color": "#ffffff",
+                "heading_style": "h3",
+                "width": "100%",
+                "alignment": "center",
+                "align_text": "center"
+              }
+            }
+          },
+          "block_order": [
+            "1492805123317-0"
+          ],
+          "settings": {
+            "heading_text": "",
+            "heading_color": "#3a3a3a",
+            "background_color": "",
+            "top_margin": true,
+            "bottom_margin": false
+          }
+        }
+      },
+      "content_for_index": [
+        "feature-row",
+        "1492804742195",
+        "1486664864970",
+        "gallery",
+        "1492805123317",
+        "1486665151632",
+        "1486665428106",
+        "1486665657092",
+        "1486665735205",
+        "featured-slider",
+        "featured-collection"
+      ]
+    }
+  }
+}

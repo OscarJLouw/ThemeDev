@@ -1,0 +1,103 @@
+{%- assign image_crop = false -%}
+
+{% if block.settings.image_crop == 'circle' or block.settings.image_crop == 'square' or block.settings.image_crop == 'custom' %}
+  {%- assign image_crop = true -%}
+{% endif %}
+
+<style>
+  .feature-row--{{ block.id }} {
+    {% if block.settings.background_color != blank %}
+      background-color: {{ block.settings.background_color }};
+    {% elsif block.settings.background_color == blank and image_crop %}
+      background-color: {{ settings.color_secondary_bg }};
+    {% endif %}
+  }
+
+  {% if block.settings.image_crop == 'custom'%}
+  .feature-row__image--{{ block.id }} {
+      width: {{ block.settings.custom_image_width | append: 'px' }};
+      height: {{ block.settings.custom_image_height | append: 'px' }};
+  }
+  .featured-row__image-subtitle--{{ block.id }}{
+    font-size: 1rem;
+    font-style: italic;
+
+    margin-top: -1rem;
+    transform: translate(50%, {{ block.settings.custom_image_height | divided_by: 2  | append: 'px' }});
+    top: 50%;
+  }
+  
+  @media screen and (min-width: 750px) {
+    .featured-row__image-subtitle--{{ block.id }}{
+      font-size: 1.4rem;
+      
+      margin-top: 1rem;
+      transform: translate(50%, {{ block.settings.custom_image_height | divided_by: 2  | append: 'px' }});
+      top: 50%;
+    }
+  }
+  {% endif %}
+  
+  {% if image_crop %}
+    @media screen and (min-width: 750px) {
+      .feature-row--{{ block.id }} .feature-row__image-wrapper {
+        <!--background-color: {{ block.settings.background_color | color_lighten: 5 }};-->
+      }
+    }
+  {% endif %}
+  
+</style>
+
+{% if block.settings.image != blank %}
+  <style>
+    .feature-row__image--{{ block.id }} {
+      background-position: {{ block.settings.alignment }};
+    }
+  </style>
+{% endif %}
+
+{% capture image_layout %}
+  <div class="feature-row__item feature-row__image-wrapper">
+    {% if block.settings.image != blank %}
+      <div class="feature-row__image feature-row__image--{{ block.id }}{% if image_crop %} feature-row__image-crop{% endif %} lazyload" data-sizes="auto" data-bgset="{% include 'bgset', image: block.settings.image %}"></div>
+
+      <noscript>
+        <div class="feature-row__image feature-row__image--{{ block.id }}{% if image_crop %} feature-row__image-crop{% endif %}" style="background-image: {{ block.settings.image | img_url: 'master' }}"></div>
+      </noscript>
+    {% else %}
+      <div class="feature-row__image feature-row__image--{{ block.id }}{% if image_crop %} feature-row__image-crop{% endif %}">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
+    {% endif %}
+    
+    {% if block.settings.use_image_subtitle %}
+      <div class="rte-setting featured-row__image-subtitle featured-row__image-subtitle--{{ block.id }}">{{ block.settings.image_subtitle_text }}</div>
+    {% endif %}
+  </div>
+{% endcapture %}
+<div class="feature-row--{{ block.id }}">
+<div class="feature-row page-width feature-row--{{ block.settings.size }} feature-row__image-crop--{{ block.settings.image_crop }} {% if block.settings.mobile_layout == 'bottom' %} feature-row-mobile--bottom{% endif %}" data-block-id="{{ block.id }}" data-block-type="feature-row">
+  {% if block.settings.desktop_layout == 'left' %}
+    {{ image_layout }}
+  	
+  {% endif %}
+
+  <div class="feature-row__item feature-row__text">
+    {% if block.settings.title != blank %}
+      <h3 class="feature-row__heading h3 separator" data-animate>{{ block.settings.title | escape }}</h3>
+    {% endif %}
+    {% if block.settings.text != blank %}
+      <div class="rte-setting featured-row__subtext">{{ block.settings.text }}</div>
+    {% endif %}
+    {% if block.settings.button_label != blank %}
+      <a href="{{ block.settings.button_link }}" class="btn{% if block.settings.use_second_button %} btn--secondary{% endif %} feature-row__btn">
+        {{ block.settings.button_label }}
+      </a>
+    {% endif %}
+  </div>
+
+  {% if block.settings.desktop_layout == 'right' %}
+    {{ image_layout }}
+  {% endif %}
+</div>
+
+</div>
+

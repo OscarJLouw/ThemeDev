@@ -1,0 +1,97 @@
+<form class="product-form" action="/cart/add" method="post" enctype="multipart/form-data">
+  <div class="grid add-bottom-margin">
+      
+    {% if product.variants.size > 1 %}
+    <div class="grid__item medium-up--one-half add-bottom-margin {">
+        {% unless product.variants.size == 1 and product.options.size == 1 and product.options.first == 'Title' and product.variants.first.title == 'Default Title' %}
+          {% for option in product.options_with_values %}
+            <div class="product-form__item supports-js input-group--underline">
+
+              {% if option.name != 'default' %}
+                <label class="single-option-selector__label{% unless section.settings.show_variant_labels %} single-option-selector__label--hidden{% endunless %}" for="{{option.name}}">{{ option.name }}</label>
+              {% endif %}
+
+              <select id="{{option.name}}" name="{{option.name}}" class="single-option-selector" data-option-input>
+                {% for value in option.values %}
+                  {% assign safeValue = value | replace: '"', '&quot;' %}
+                  <option value="{{ safeValue }}" {% if option.selected_value == value %}selected{% endif %}>{{ value }}</option>
+                {% endfor %}
+              </select>
+            </div>
+          {% endfor %}
+        {% endunless %}
+      {% endif %}
+      
+        <select id="sizeSelector" name="id" class="product-form__master-select supports-no-js" data-master-select>
+          {% for variant in product.variants %}
+          {% if variant.available %}
+
+          {% comment %}
+          Note: if you use option_selection.js, your select tag will be overwritten, meaning what you have inside <option> will not reflect what you coded below.
+          {% endcomment %}
+          <option {% if variant == product.selected_or_first_available_variant %} selected="selected" {% endif %} data-sku="{{ variant.sku }}" value="{{ variant.id }}">{{ variant.title }} - {{ variant.price | money_with_currency }}</option>
+
+          {% else %}
+          <option disabled="disabled">
+            {{ variant.title }} - {{ 'products.product.sold_out' | t }}
+          </option>
+          {% endif %}
+          {% endfor %}
+        </select>
+      
+        {% if product.variants.size > 1 %}
+      
+      <a class="small_grey_link rte size-chart-open-popup" href="#size-chart">What is my size?</a>
+      
+      {% comment %}
+        <span class="small_grey_link rte">
+          {{ 'What is my size?' | link_to: '/pages/what-is-my-ring-size' }}
+        </span>
+      {% endcomment %}
+      </div>
+    {% endif %}
+
+    
+    
+      <div class="grid__item medium-up--one-half">
+        <button class="btn btn--to-secondary btn--full product__add-to-cart-button" data-cart-submit type="submit" name="add" aria-live="polite"{% unless current_variant.available %} disabled="true"{% endunless %} aria-live="polite">
+          <span class="primary-text" aria-hidden=false data-cart-primary-submit-text>
+            {% unless current_variant.available %}
+            {{ 'products.product.sold_out' | t }}
+            {% else %}
+            {{ 'products.product.add_to_cart' | t }}
+            {% endunless %}
+          </span>
+          <span class="secondary-text" aria-hidden=true data-cart-secondary-submit-text>{{ 'products.product.view_cart' | t }}</span>
+        </button>
+        
+        
+      </div>
+    
+    {% if product.variants.size <= 1 %}
+    <div class="grid__item medium-up--one-half">
+    </div>
+    {% endif %}
+    
+    </div>
+  
+  <p class="product__notification text-small text-center" data-cart-notification></p>
+    
+    
+    
+</form>
+
+
+<div id="size-chart" class="mfp-hide">
+{{ pages.what-is-my-ring-size.content }}
+</div>
+<style>
+#size-chart {
+  border: 2px #555 solid;
+  background-color: #ffffff;
+  padding: 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>

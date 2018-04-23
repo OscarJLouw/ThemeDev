@@ -1,0 +1,199 @@
+<style>
+  .hero--{{ section.id }} {
+    background-position: {{ section.settings.mobileAlignment }};
+    @media screen and (min-width: 750px) {
+      background-position: {{ section.settings.desktopAlignment }};
+    }
+  }
+  
+  .mobile_hidden {
+    display:none;
+  }
+  
+  .mobile_only {
+    display:block;
+  }
+  
+  @media only screen and (min-width: 750px) {
+    .mobile_hidden {
+      display:block;
+    }
+    .mobile_only {
+      display:none;
+    }
+  }
+  
+  .startInvisible{
+    opacity:0 !important;
+  }
+  
+  .makeVisible{
+    transition: all 1500ms cubic-bezier(0, 0, 0, 1) !important;
+    opacity:1 !important;
+  }
+  
+  .absoluteImgPosition{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+  }
+  
+  #myProgress {
+    position:absolute;
+    top:50%;
+    left:50%;
+    width: 200px;
+    transform:translateX(-50%);
+    background-color: #ecce9e;
+  }
+  #myBar {
+    width: 1%;
+    height: 1px;
+    background-color: #d89c92;
+  }
+</style>
+
+{% comment %}
+{%- capture image_size %}x{{ section.settings.loadingImage_height }}{% endcapture -%}
+<img class="absoluteImgPosition heroimg--{{ section.id }}" src="{{ section.settings.loadingImage | img_url: image_size }}" srcset="{{ section.settings.loadingImage | img_url: image_size }} 1x, {{ section.settings.loadingImage | img_url: image_size, scale: 2 }} 2x" alt="{{ section.settings.loadingImage.alt | default: shop.name }}" itemprop="logo">
+{% endcomment %}
+
+<div id="myProgress">
+  <div id="myBar"></div>
+</div>
+
+<div class="startInvisible mobile_only hero hero--{{ section.id }} hero--fullscreen lazyload" data-bgset="{% include 'bgset', image: section.settings.mobileImage %}" data-section-id="{{ section.id }}" data-section-type="hero">
+  <div class="hero__inner">
+  </div>
+</div>
+
+<div class="startInvisible mobile_hidden hero hero--{{ section.id }} hero--fullscreen lazyload" data-bgset="{% include 'bgset', image: section.settings.desktopImage %}" data-section-id="{{ section.id }}" data-section-type="hero">
+  <div class="hero__inner">
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Index Hero",
+  "class": "index-section index-section--image-with-text-overlay",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "desktopImage",
+      "label": "Desktop Image"
+    },
+    {
+      "type": "select",
+      "id": "desktopAlignment",
+      "label": "Desktop Image alignment",
+      "default": "center center",
+      "options": [
+        {
+          "label": "Top left",
+          "value": "top left"
+        },
+        {
+          "label": "Top center",
+          "value": "top center"
+        },
+        {
+          "label": "Top right",
+          "value": "top right"
+        },
+        {
+          "label": "Middle left",
+          "value": "center left"
+        },
+        {
+          "label": "Middle center",
+          "value": "center center"
+        },
+        {
+          "label": "Middle right",
+          "value": "center right"
+        },
+        {
+          "label": "Bottom left",
+          "value": "bottom left"
+        },
+        {
+          "label": "Bottom center",
+          "value": "bottom center"
+        },
+        {
+          "label": "Bottom right",
+          "value": "bottom right"
+        }
+      ]
+    },
+	{
+      "type": "image_picker",
+      "id": "mobileImage",
+      "label": "Mobile Image"
+    },
+    {
+      "type": "select",
+      "id": "mobileAlignment",
+      "label": "Desktop Image alignment",
+      "default": "center center",
+      "options": [
+        {
+          "label": "Top left",
+          "value": "top left"
+        },
+        {
+          "label": "Top center",
+          "value": "top center"
+        },
+        {
+          "label": "Top right",
+          "value": "top right"
+        },
+        {
+          "label": "Middle left",
+          "value": "center left"
+        },
+        {
+          "label": "Middle center",
+          "value": "center center"
+        },
+        {
+          "label": "Middle right",
+          "value": "center right"
+        },
+        {
+          "label": "Bottom left",
+          "value": "bottom left"
+        },
+        {
+          "label": "Bottom center",
+          "value": "bottom center"
+        },
+        {
+          "label": "Bottom right",
+          "value": "bottom right"
+        }
+      ]
+    },
+	{
+      "type": "image_picker",
+      "id": "loadingImage",
+      "label": "Loading Image"
+    },
+	{
+      "id": "loadingImage_height",
+      "type": "text",
+      "label": "Loading image height (in pixels)",
+      "default": "150"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Index Hero",
+      "category": "Image"
+    }
+  ]
+}
+{% endschema %}
